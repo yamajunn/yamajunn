@@ -16,4 +16,4 @@
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yamajunn&theme=gruvbox&utcOffset=9)
-![trophy](https://github-profile-trophy.vercel.app/?username=yamajunn&theme=oldie&margin-w=15&no-bg=true&column=6&no-frame=true&rank=-?)
+![trophy](https://github-profile-trophy.vercel.app/?username=yamajunn&theme=discord&margin-w=15&no-bg=true&column=6&no-frame=true&rank=-?)
