@@ -17,6 +17,8 @@
   
 ・🤖 I am currently studying AI.
 
+・🖊️ I mainly produce Minecraft related applications.
+
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yamajunn&theme=gruvbox&utcOffset=9)
