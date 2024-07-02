@@ -13,6 +13,9 @@
   </a>
 </p>
 
+・🏫 I am 17 years old and a high school student.
+・🤖 I am currently studying AI.
+
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yamajunn&theme=gruvbox&utcOffset=9)
