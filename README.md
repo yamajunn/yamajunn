@@ -14,6 +14,7 @@
 </p>
 
 ・🏫 I am 17 years old and a high school student.
+  
 ・🤖 I am currently studying AI.
 
 ## Stats
