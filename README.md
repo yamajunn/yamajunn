@@ -12,7 +12,9 @@
     <img height="20" src="https://qiita-badge.apiapi.app/s/amiton1115/contributions.svg" />
   </a>
 </p>
-
+  
+Hi there 👋
+  
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yamajunn&theme=gruvbox&utcOffset=9)
