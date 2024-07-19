@@ -21,7 +21,8 @@
 ・ My native language is Japanese.
   
 ・ I have been studying programming for three years.
-
+  
+---
 ## 🔧 Technology used
 
 <table>
