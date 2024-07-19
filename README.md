@@ -16,11 +16,11 @@
 # 👋 Hi there
 
 ## 📝 About me
-・ I am interested in AI and am studying it.
+##### ・ I am interested in AI and am studying it.
   
-・ My native language is Japanese.
+##### ・ My native language is Japanese.
   
-・ I have been studying programming for three years.
+##### ・ I have been studying programming for three years.
   
 ---
 ## 🔧 Technology used
