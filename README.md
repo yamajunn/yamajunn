@@ -15,7 +15,7 @@
   
 ## 👋 Hi there
 
-## About me
+## 📝 About me
 ・ I am interested in AI and am studying it.
   
 ・ My native language is Japanese.
