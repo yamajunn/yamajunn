@@ -14,6 +14,11 @@
 </p>
   
 ## 👋 Hi there
+
+## About me
+・ I am interested in AI and am studying it.
+・ My native language is Japanese.
+・ I have been studying programming for three years.
   
 ## 📚 Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
