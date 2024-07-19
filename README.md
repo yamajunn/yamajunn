@@ -23,18 +23,43 @@
 ・ I have been studying programming for three years.
 
 ## 🔧 Technology used
-- coding languages
-  - Python
-  - JAVA
-  - TypeScript
-  - Dirt
-- Framework
-  - Django
-  - PyQt5
-  - flutter
-  - TensorFlow
-  - PyTorch
-  - and other machine learning frameworks.
+
+<table>
+  <tr>
+    <td>Env</td>
+    <td>Lang</td>
+    <td>DB</td>
+    <td>Editor</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat">
+      <br>
+      <img src="https://img.shields.io/badge/-shell-555.svg?logo=shell&style=flat">
+      <img src="https://img.shields.io/badge/-zsh-555.svg?logo=&style=flat">
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
+      <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=flat">
+      <br>
+      <img src="https://img.shields.io/badge/-TypeScript-555.svg?logo=typescript&style=flat">
+      <img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat">
+      <br>
+      <img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
+      <img src="https://img.shields.io/badge/-pandas-%23150458.svg?logo=pandas&style=flat">
+      <br>
+      <img src="https://img.shields.io/badge/-pandas-%23150458.svg?logo=pandas&style=flat">
+      <img src="https://img.shields.io/badge/-Java-F80000.svg?logo=&style=flat">
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?logo=sqlite&style=flat">
+      <img src="https://img.shields.io/badge/-MySQL-000000.svg?logo=mysql&style=flat">
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/-Vim-019733.svg?logo=vim&style=flat">
+    </td>
+  </tr>
+</table>
   
 ## 📚 Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
