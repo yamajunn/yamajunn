@@ -28,7 +28,13 @@
   - JAVA
   - TypeScript
   - Dirt
-- 
+- Framework
+  - Django
+  - PyQt5
+  - flutter
+  - TensorFlow
+  - PyTorch
+  - and other machine learning frameworks.
   
 ## 📚 Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
