@@ -68,6 +68,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[07/19 01:18]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[07/18 08:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
 `[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -77,10 +78,10 @@
 `[07/17 10:56]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
 `[07/14 06:35]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [sp614x/optifine](https://github.com/sp614x/optifine)  
 `[07/13 02:49]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [lszomoru/winget-pkgs](https://github.com/lszomoru/winget-pkgs)  
-`[07/13 02:47]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [microsoft/vscode](https://github.com/microsoft/vscode)  
 
 <details><summary>Show More</summary>
 
+`[07/13 02:47]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [microsoft/vscode](https://github.com/microsoft/vscode)  
 `[07/13 02:47]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [microsoft/AI](https://github.com/microsoft/AI)  
 `[07/12 04:21]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[07/12 03:21]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
