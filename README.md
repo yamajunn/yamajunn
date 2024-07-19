@@ -48,7 +48,6 @@
       <img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
       <img src="https://img.shields.io/badge/-pandas-%23150458.svg?logo=pandas&style=flat">
       <br>
-      <img src="https://img.shields.io/badge/-pandas-%23150458.svg?logo=pandas&style=flat">
       <img src="https://img.shields.io/badge/-Java-F80000.svg?logo=&style=flat">
     </td>
     <td>
