@@ -66,7 +66,7 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=yamajunn&theme=discord&margin-w=15&no-bg=true&column=6&no-frame=true&rank=-?)
 
 ## ⚡️ Actions
-<!--START_SECTION:activity-->
+  <!--START_SECTION:activity-->
 `[07/18 08:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
 `[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
