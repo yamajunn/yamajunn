@@ -68,6 +68,9 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[07/19 06:15]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
+`[07/19 06:01]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks.](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks.)  
+`[07/19 06:00]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [CG-AA/Wool](https://github.com/CG-AA/Wool)  
 `[07/19 05:56]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [Mekasniz/Discord-Raider](https://github.com/Mekasniz/Discord-Raider)  
 `[07/19 02:56]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[07/19 02:15]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#5`](https://github.com//yufukui-m/vanxxx-server/pull/5 'yamazaki test') in [yufukui-m/vanxxx-server](https://github.com/yufukui-m/vanxxx-server)  
@@ -75,12 +78,12 @@
 `[07/19 02:14]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`yamazaki-test`](https://github.com/yufukui-m/vanxxx-server/tree/yamazaki-test) in [yufukui-m/vanxxx-server](https://github.com/yufukui-m/vanxxx-server)  
 `[07/19 02:10]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `11` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[07/18 08:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
-`[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 <details><summary>Show More</summary>
 
+`[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/18 08:07]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `4` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
 `[07/18 04:02]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[07/17 10:56]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
