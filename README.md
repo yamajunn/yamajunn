@@ -13,7 +13,7 @@
   </a>
 </p>
   
-## 👋 Hi there
+# 👋 Hi there
 
 ## 📝 About me
 ・ I am interested in AI and am studying it.
@@ -21,6 +21,14 @@
 ・ My native language is Japanese.
   
 ・ I have been studying programming for three years.
+
+## 🔧 Technology used
+- coding languages
+  - Python
+  - JAVA
+  - TypeScript
+  - Dirt
+- 
   
 ## 📚 Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=gruvbox)
