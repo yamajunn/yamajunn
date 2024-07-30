@@ -158,7 +158,6 @@
 `[05/06 06:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/HypixelGameStatus`</span>  
 `[05/01 12:36]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/overlay`</span>  
 `[04/30 02:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/HypixelGameStatus`</span>  
-`[04/29 09:48]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in <span title="Private Repo">`🔒yamajunn/overlay`</span>  
 
 </details>
 <!--END_SECTION:activity-->
