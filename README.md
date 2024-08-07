@@ -156,9 +156,6 @@
 `[05/12 12:55]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/DQN/tree/main) in [yamajunn/DQN](https://github.com/yamajunn/DQN)  
 `[05/12 12:55]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/DQN](https://github.com/yamajunn/DQN)  
 `[05/11 11:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in <span title="Private Repo">`🔒yamajunn/overlay`</span>  
-`[05/06 07:16]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/HypixelGameStatus`</span>  
-`[05/06 06:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/overlay`</span>  
-`[05/06 06:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/HypixelGameStatus`</span>  
 
 </details>
 <!--END_SECTION:activity-->
