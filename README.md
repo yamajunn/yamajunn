@@ -68,6 +68,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[08/09 08:29]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 07:59]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/NewCaputureScreenKeys`](https://github.com/yamajunn/BRAD/tree/feature/NewCaputureScreenKeys) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 06:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `78` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/02 07:15]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#2`](https://github.com//yamajunn/BRAD/pull/2 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -77,10 +78,10 @@
 `[07/26 09:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 04:36]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 04:36]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/26 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 <details><summary>Show More</summary>
 
+`[07/26 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/25 14:32]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/DeleteVideoSave`](https://github.com/yamajunn/BRAD/tree/feature/DeleteVideoSave) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/25 13:52]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `21` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/20 01:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
@@ -152,7 +153,7 @@
 `[05/28 15:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/HypixelGameStatus](https://github.com/yamajunn/HypixelGameStatus)  
 `[05/28 06:28]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/PongAI](https://github.com/yamajunn/PongAI)  
 `[05/20 14:28]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `10` commits in [yamajunn/overlay](https://github.com/yamajunn/overlay)  
-`[05/13 09:38]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in <span title="Private Repo">`🔒yamajunn/HypixelGameStatus`</span>  
+`[05/13 09:38]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/HypixelGameStatus`</span>  
 
 </details>
 <!--END_SECTION:activity-->
