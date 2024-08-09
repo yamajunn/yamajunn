@@ -68,7 +68,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[08/09 02:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `63` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[08/09 04:32]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `64` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/02 07:15]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#2`](https://github.com//yamajunn/BRAD/pull/2 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/02 07:13]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#2`](https://github.com//yamajunn/BRAD/pull/2 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/02 07:12]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `17` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -155,7 +155,7 @@
 `[05/13 09:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/overlay](https://github.com/yamajunn/overlay)  
 `[05/12 12:55]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/DQN/tree/main) in [yamajunn/DQN](https://github.com/yamajunn/DQN)  
 `[05/12 12:55]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/DQN](https://github.com/yamajunn/DQN)  
-`[05/11 11:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in <span title="Private Repo">`🔒yamajunn/overlay`</span>  
+`[05/11 11:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in <span title="Private Repo">`🔒yamajunn/overlay`</span>  
 
 </details>
 <!--END_SECTION:activity-->
