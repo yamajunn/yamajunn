@@ -27,17 +27,32 @@
 
 <table>
   <tr>
-    <td>Env</td>
     <td>Lang</td>
+    <td>FW & Lib</td>
     <td>DB</td>
+    <td>Cloud</td>
     <td>Editor</td>
   </tr>
   <tr>
     <td>
-      <img src="https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat">
+      <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+      <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
       <br>
-      <img src="https://img.shields.io/badge/-shell-555.svg?logo=shell&style=flat">
-      <img src="https://img.shields.io/badge/-zsh-555.svg?logo=&style=flat">
+      <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
+      <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+      <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white">
+      <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white">
+      <br>
     </td>
     <td>
       <img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
