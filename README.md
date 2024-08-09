@@ -55,16 +55,26 @@
       <br>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
-      <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=flat">
+      <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white">
+      <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white">
       <br>
-      <img src="https://img.shields.io/badge/-TypeScript-555.svg?logo=typescript&style=flat">
-      <img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat">
+      <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
+      <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white">
       <br>
-      <img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
-      <img src="https://img.shields.io/badge/-pandas-%23150458.svg?logo=pandas&style=flat">
+      <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white">
+      <img src="https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF">
       <br>
-      <img src="https://img.shields.io/badge/-Java-F80000.svg?logo=&style=flat">
+      <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+      <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black">
+      <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
+      <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white">
+      <br>
+      <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white">
+      <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white">
     </td>
     <td>
       <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?logo=sqlite&style=flat">
