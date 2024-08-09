@@ -68,7 +68,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[08/09 09:13]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[08/09 09:32]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `14` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 07:59]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/NewCaputureScreenKeys`](https://github.com/yamajunn/BRAD/tree/feature/NewCaputureScreenKeys) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 06:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `78` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/02 07:15]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#2`](https://github.com//yamajunn/BRAD/pull/2 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -151,8 +151,6 @@
 `[06/13 03:09]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[06/08 00:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/DQN](https://github.com/yamajunn/DQN)  
 `[05/28 15:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/HypixelGameStatus](https://github.com/yamajunn/HypixelGameStatus)  
-`[05/28 06:28]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/PongAI](https://github.com/yamajunn/PongAI)  
-`[05/20 14:28]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/overlay](https://github.com/yamajunn/overlay)  
 
 </details>
 <!--END_SECTION:activity-->
