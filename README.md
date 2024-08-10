@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[08/10 07:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `14` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[08/10 08:06]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `26` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 17:54]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[08/09 16:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `57` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 07:59]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/NewCaputureScreenKeys`](https://github.com/yamajunn/BRAD/tree/feature/NewCaputureScreenKeys) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -172,9 +172,7 @@
 `[06/26 09:56]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [KareemMAX/Minecraft-Skiner](https://github.com/KareemMAX/Minecraft-Skiner)  
 `[06/26 09:54]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)  
 `[06/26 09:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/Hypixel_Get_Status](https://github.com/yamajunn/Hypixel_Get_Status)  
-`[06/26 09:49]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in <span title="Private Repo">`🔒yamajunn/Hypixel_API`</span>  
-`[06/26 09:46]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `6` commits in <span title="Private Repo">`🔒yamajunn/Hypixel_Data`</span>  
-`[06/26 09:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in <span title="Private Repo">`🔒yamajunn/Hypixel_API`</span>  
+`[06/26 09:49]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in <span title="Private Repo">`🔒yamajunn/Hypixel_API`</span>  
 
 </details>
 <!--END_SECTION:activity-->
