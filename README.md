@@ -104,6 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[08/10 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 17:54]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[08/09 16:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `57` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 07:59]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/NewCaputureScreenKeys`](https://github.com/yamajunn/BRAD/tree/feature/NewCaputureScreenKeys) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -113,10 +114,10 @@
 `[08/02 07:12]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `17` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 09:55]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [ildoonet/gpt-researcher](https://github.com/ildoonet/gpt-researcher)  
 `[07/26 09:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/26 04:36]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 <details><summary>Show More</summary>
 
+`[07/26 04:36]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 04:36]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/25 14:32]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/DeleteVideoSave`](https://github.com/yamajunn/BRAD/tree/feature/DeleteVideoSave) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -175,7 +176,7 @@
 `[06/26 09:46]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `6` commits in <span title="Private Repo">`🔒yamajunn/Hypixel_Data`</span>  
 `[06/26 09:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in <span title="Private Repo">`🔒yamajunn/Hypixel_API`</span>  
 `[06/26 09:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
-`[06/26 08:02]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `11` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
+`[06/26 08:02]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `10` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
 
 </details>
 <!--END_SECTION:activity-->
