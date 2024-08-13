@@ -164,7 +164,6 @@
 `[07/02 09:07]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
 `[07/02 07:47]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [minerllabs/minerl](https://github.com/minerllabs/minerl)  
 `[06/30 11:48]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
-`[06/30 09:36]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9)  
 
 </details>
 <!--END_SECTION:activity-->
