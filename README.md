@@ -104,6 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[08/15 05:00]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:30]` <img alt="❌" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/delete.png" align="top" height="18"> Deleted `test` from [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:29]` <img alt="❌" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-close.png" align="top" height="18"> Closed PR [`#4`](https://github.com//yamajunn/BRAD/pull/4 'Update README.md with additional crafting options') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:29]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#4`](https://github.com//yamajunn/BRAD/pull/4 'Update README.md with additional crafting options') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -113,10 +114,10 @@
 `[08/13 05:27]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#3`](https://github.com//yamajunn/BRAD/pull/3 'Feature/new caputure screen keys') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:26]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#3`](https://github.com//yamajunn/BRAD/pull/3 'Feature/new caputure screen keys') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/12 07:24]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `40` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[08/09 17:54]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 
 <details><summary>Show More</summary>
 
+`[08/09 17:54]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[08/09 16:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `57` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 07:59]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/NewCaputureScreenKeys`](https://github.com/yamajunn/BRAD/tree/feature/NewCaputureScreenKeys) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/09 06:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `78` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
