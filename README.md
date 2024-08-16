@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[08/16 08:32]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `8` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[08/16 08:56]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/15 07:56]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [matsuken92/Qiita_Contents](https://github.com/matsuken92/Qiita_Contents)  
 `[08/15 05:00]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:30]` <img alt="❌" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/delete.png" align="top" height="18"> Deleted `test` from [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -160,7 +160,7 @@
 `[07/09 07:20]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
 `[07/09 06:48]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/StringMath/tree/main) in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
 `[07/09 06:47]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
-`[07/09 06:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `4` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
+`[07/09 06:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
 
 </details>
 <!--END_SECTION:activity-->
