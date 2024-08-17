@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[08/17 08:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `21` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[08/17 08:55]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `25` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/15 07:56]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [matsuken92/Qiita_Contents](https://github.com/matsuken92/Qiita_Contents)  
 `[08/15 05:00]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:30]` <img alt="❌" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/delete.png" align="top" height="18"> Deleted `test` from [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -151,7 +151,6 @@
 `[07/18 04:02]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[07/17 10:56]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/IRAD](https://github.com/yamajunn/IRAD)  
 `[07/14 06:35]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [sp614x/optifine](https://github.com/sp614x/optifine)  
-`[07/13 02:49]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [lszomoru/winget-pkgs](https://github.com/lszomoru/winget-pkgs)  
 
 </details>
 <!--END_SECTION:activity-->
