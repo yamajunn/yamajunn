@@ -104,6 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[09/18 04:20]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[09/16 07:48]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)  
 `[09/16 04:50]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/MADTEST](https://github.com/yamajunn/MADTEST)  
 `[09/05 08:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -113,10 +114,10 @@
 `[08/31 15:55]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in <span title="Private Repo">`🔒yamajunn/MYAI`</span>  
 `[08/29 07:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/26 07:43]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch `main` in <span title="Private Repo">`🔒yamajunn/MYAI`</span>  
-`[08/26 07:42]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository <span title="Private Repo">`🔒yamajunn/MYAI`</span>  
 
 <details><summary>Show More</summary>
 
+`[08/26 07:42]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository <span title="Private Repo">`🔒yamajunn/MYAI`</span>  
 `[08/20 15:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `28` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/15 07:56]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [matsuken92/Qiita_Contents](https://github.com/matsuken92/Qiita_Contents)  
 `[08/15 05:00]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -154,7 +155,6 @@
 `[07/19 02:14]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`yamazaki-test`](https://github.com/yufukui-m/vanxxx-server/tree/yamazaki-test) in [yufukui-m/vanxxx-server](https://github.com/yufukui-m/vanxxx-server)  
 `[07/19 02:10]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `11` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 `[07/18 08:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
-`[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/18 08:20]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
