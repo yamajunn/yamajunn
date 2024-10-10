@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[10/10 04:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
+`[10/10 05:08]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[10/10 03:54]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/AI_Implementation/tree/main) in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[10/10 03:48]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[09/18 04:20]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
@@ -157,7 +157,6 @@
 `[07/19 02:15]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yufukui-m/vanxxx-server](https://github.com/yufukui-m/vanxxx-server)  
 `[07/19 02:14]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`yamazaki-test`](https://github.com/yufukui-m/vanxxx-server/tree/yamazaki-test) in [yufukui-m/vanxxx-server](https://github.com/yufukui-m/vanxxx-server)  
 `[07/19 02:10]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `11` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
-`[07/18 08:37]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/StringMath](https://github.com/yamajunn/StringMath)  
 
 </details>
 <!--END_SECTION:activity-->
