@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[10/13 14:11]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/3D](https://github.com/yamajunn/3D)  
+`[10/14 06:56]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `4` commits in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/13 05:52]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/3D/tree/main) in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/13 05:52]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/13 05:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `27` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
@@ -145,7 +145,6 @@
 `[07/26 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/25 14:32]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/DeleteVideoSave`](https://github.com/yamajunn/BRAD/tree/feature/DeleteVideoSave) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/25 13:52]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `21` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/20 01:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 
 </details>
 <!--END_SECTION:activity-->
