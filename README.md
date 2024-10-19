@@ -104,7 +104,8 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[10/18 09:26]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
+`[10/19 01:05]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
+`[10/19 00:39]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
 `[10/18 08:15]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/18 08:13]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/AI_competition/tree/main) in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
 `[10/18 08:12]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
@@ -113,10 +114,10 @@
 `[10/18 00:54]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`yamazaki`](https://github.com/yufukui-m/shiritori/tree/yamazaki) in [yufukui-m/shiritori](https://github.com/yufukui-m/shiritori)  
 `[10/16 13:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/13 05:52]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/3D/tree/main) in [yamajunn/3D](https://github.com/yamajunn/3D)  
-`[10/13 05:52]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/3D](https://github.com/yamajunn/3D)  
 
 <details><summary>Show More</summary>
 
+`[10/13 05:52]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/13 05:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `27` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[10/10 03:54]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/AI_Implementation/tree/main) in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[10/10 03:48]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
@@ -151,7 +152,7 @@
 `[07/26 04:36]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/25 14:32]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/DeleteVideoSave`](https://github.com/yamajunn/BRAD/tree/feature/DeleteVideoSave) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/25 13:52]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `14` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[07/25 13:52]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `12` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
 <!--END_SECTION:activity-->
