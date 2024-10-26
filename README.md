@@ -160,8 +160,7 @@
 `[07/26 09:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 04:36]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[07/26 04:36]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#1`](https://github.com//yamajunn/BRAD/pull/1 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/26 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[07/25 14:32]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feature/DeleteVideoSave`](https://github.com/yamajunn/BRAD/tree/feature/DeleteVideoSave) in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[07/26 04:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `4` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
 <!--END_SECTION:activity-->
