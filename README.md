@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[10/27 22:27]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `4` commits in [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
+`[10/28 02:17]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `8` commits in [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
 `[10/26 06:57]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/Terminal_GUI/tree/main) in [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
 `[10/26 06:56]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
 `[10/26 04:45]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-todo-master/tree/main) in [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
@@ -160,7 +160,7 @@
 `[08/09 06:31]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `78` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/02 07:15]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#2`](https://github.com//yamajunn/BRAD/pull/2 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/02 07:13]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#2`](https://github.com//yamajunn/BRAD/pull/2 'Feature/delete video save') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[08/02 07:12]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `14` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[08/02 07:12]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
 <!--END_SECTION:activity-->
