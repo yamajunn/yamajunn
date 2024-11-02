@@ -104,6 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[11/02 04:43]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[11/01 02:57]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `11` commits in [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
 `[10/31 02:04]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[10/28 06:16]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `10` commits in [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
@@ -113,10 +114,10 @@
 `[10/26 04:45]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
 `[10/25 06:27]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/MyTheme/tree/main) in [yamajunn/MyTheme](https://github.com/yamajunn/MyTheme)  
 `[10/25 06:26]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/MyTheme](https://github.com/yamajunn/MyTheme)  
-`[10/25 00:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 
 <details><summary>Show More</summary>
 
+`[10/25 00:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/19 07:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
 `[10/19 06:01]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/19 05:04]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
