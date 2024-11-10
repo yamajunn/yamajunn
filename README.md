@@ -161,7 +161,6 @@
 `[08/13 05:27]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#3`](https://github.com//yamajunn/BRAD/pull/3 'Feature/new caputure screen keys') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:26]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#3`](https://github.com//yamajunn/BRAD/pull/3 'Feature/new caputure screen keys') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/12 07:24]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `40` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[08/09 17:54]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 
 </details>
 <!--END_SECTION:activity-->
