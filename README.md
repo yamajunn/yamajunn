@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[11/11 14:44]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
+`[11/12 00:52]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `6` commits in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
 `[11/11 02:24]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/stock_predict](https://github.com/yamajunn/stock_predict)  
 `[11/09 13:42]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/stock_predict/tree/main) in [yamajunn/stock_predict](https://github.com/yamajunn/stock_predict)  
 `[11/09 13:41]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/stock_predict](https://github.com/yamajunn/stock_predict)  
@@ -162,7 +162,7 @@
 `[08/13 05:27]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `101` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:27]` <img alt="🎉" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/merge.png" align="top" height="18"> Merged PR [`#3`](https://github.com//yamajunn/BRAD/pull/3 'Feature/new caputure screen keys') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[08/13 05:26]` <img alt="✅" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/pr-open.png" align="top" height="18"> Opened PR [`#3`](https://github.com//yamajunn/BRAD/pull/3 'Feature/new caputure screen keys') in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[08/12 07:24]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
+`[08/12 07:24]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
 <!--END_SECTION:activity-->
