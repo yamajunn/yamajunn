@@ -151,8 +151,7 @@
 `[09/05 08:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[09/01 10:07]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/MADTEST/tree/main) in [yamajunn/MADTEST](https://github.com/yamajunn/MADTEST)  
 `[09/01 10:07]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/MADTEST](https://github.com/yamajunn/MADTEST)  
-`[08/29 07:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `30` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
-`[08/15 07:56]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [matsuken92/Qiita_Contents](https://github.com/matsuken92/Qiita_Contents)  
+`[08/29 07:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `29` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
 <!--END_SECTION:activity-->
