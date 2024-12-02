@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[12/02 10:18]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
+`[12/02 10:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[11/30 17:02]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
 `[11/25 15:42]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/stock_predict](https://github.com/yamajunn/stock_predict)  
 `[11/13 04:55]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `10` commits in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
