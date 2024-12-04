@@ -119,7 +119,7 @@
 
 `[11/05 12:42]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/Q/tree/main) in [yamajunn/Q](https://github.com/yamajunn/Q)  
 `[11/05 12:42]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/Q](https://github.com/yamajunn/Q)  
-`[11/04 12:23]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
+`[11/04 12:23]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 
 </details>
 <!--END_SECTION:activity-->
