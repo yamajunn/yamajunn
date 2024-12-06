@@ -151,7 +151,6 @@
 `[09/18 04:20]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 `[09/16 07:48]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)  
 `[09/16 04:50]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/MADTEST](https://github.com/yamajunn/MADTEST)  
-`[09/05 08:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
 <!--END_SECTION:activity-->
