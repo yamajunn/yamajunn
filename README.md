@@ -104,6 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[12/07 02:14]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
 `[12/05 22:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `12` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[11/30 17:02]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
 `[11/25 15:42]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/stock_predict](https://github.com/yamajunn/stock_predict)  
@@ -113,10 +114,10 @@
 `[11/09 13:41]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/stock_predict](https://github.com/yamajunn/stock_predict)  
 `[11/07 10:33]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/IM2MC/tree/main) in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
 `[11/07 10:32]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
-`[11/05 14:09]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/Q](https://github.com/yamajunn/Q)  
 
 <details><summary>Show More</summary>
 
+`[11/05 14:09]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/Q](https://github.com/yamajunn/Q)  
 `[11/05 12:42]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/Q/tree/main) in [yamajunn/Q](https://github.com/yamajunn/Q)  
 `[11/05 12:42]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/Q](https://github.com/yamajunn/Q)  
 `[11/04 12:23]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
