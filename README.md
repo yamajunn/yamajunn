@@ -104,7 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
-`[12/15 08:44]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
+`[12/16 01:43]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[12/14 04:41]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-api-training/tree/main) in [yamajunn/spring-boot-api-training](https://github.com/yamajunn/spring-boot-api-training)  
 `[12/14 04:40]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-api-training](https://github.com/yamajunn/spring-boot-api-training)  
 `[12/14 03:18]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
