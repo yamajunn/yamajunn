@@ -158,7 +158,6 @@
 `[10/13 05:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `27` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[10/10 03:54]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/AI_Implementation/tree/main) in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[10/10 03:48]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
-`[09/18 04:20]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/BRAD](https://github.com/yamajunn/BRAD)  
 
 </details>
 <!--END_SECTION:activity-->
