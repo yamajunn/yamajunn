@@ -104,6 +104,8 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[12/20 14:33]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`master`](https://github.com/yamajunn/CLRY/tree/master) in [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
+`[12/20 14:33]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
 `[12/16 06:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `11` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[12/14 04:41]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-api-training/tree/main) in [yamajunn/spring-boot-api-training](https://github.com/yamajunn/spring-boot-api-training)  
 `[12/14 04:40]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-api-training](https://github.com/yamajunn/spring-boot-api-training)  
@@ -112,11 +114,11 @@
 `[12/12 10:28]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `7` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[12/07 05:50]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/spring-boot-practice-api](https://github.com/yamajunn/spring-boot-practice-api)  
 `[12/07 04:53]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-practice-api/tree/main) in [yamajunn/spring-boot-practice-api](https://github.com/yamajunn/spring-boot-practice-api)  
-`[12/07 04:53]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-practice-api](https://github.com/yamajunn/spring-boot-practice-api)  
-`[12/07 02:14]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
 
 <details><summary>Show More</summary>
 
+`[12/07 04:53]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-practice-api](https://github.com/yamajunn/spring-boot-practice-api)  
+`[12/07 02:14]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
 `[12/05 22:35]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `12` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 `[11/30 17:02]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
 `[11/25 15:42]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `9` commits in [yamajunn/stock_predict](https://github.com/yamajunn/stock_predict)  
