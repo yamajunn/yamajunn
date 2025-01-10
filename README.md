@@ -166,8 +166,6 @@
 `[10/13 05:52]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/3D/tree/main) in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/13 05:52]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/13 05:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `27` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
-`[10/10 03:54]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/AI_Implementation/tree/main) in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
-`[10/10 03:48]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 
 </details>
 <!--END_SECTION:activity-->
