@@ -163,7 +163,6 @@
 `[10/18 08:15]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/18 08:13]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/AI_competition/tree/main) in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
 `[10/18 08:12]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
-`[10/16 13:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 
 </details>
 <!--END_SECTION:activity-->
