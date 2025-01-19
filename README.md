@@ -154,12 +154,7 @@
 `[10/19 07:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
 `[10/19 06:01]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 `[10/19 05:04]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
-`[10/19 05:04]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/3D](https://github.com/yamajunn/3D)  
-`[10/19 03:06]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/add-project`](https://github.com/yamajunn/splitng_boot_todo/tree/feat/add-project) in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
-`[10/19 03:04]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
-`[10/19 01:06]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/splitng_boot_todo/tree/main) in [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
-`[10/19 01:05]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/splitng_boot_todo](https://github.com/yamajunn/splitng_boot_todo)  
-`[10/19 00:39]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
+`[10/19 05:04]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 
 </details>
 <!--END_SECTION:activity-->
