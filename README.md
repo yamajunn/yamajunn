@@ -151,7 +151,6 @@
 `[10/25 06:27]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/MyTheme/tree/main) in [yamajunn/MyTheme](https://github.com/yamajunn/MyTheme)  
 `[10/25 06:26]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/MyTheme](https://github.com/yamajunn/MyTheme)  
 `[10/25 00:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
-`[10/19 07:41]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/AI_competition](https://github.com/yamajunn/AI_competition)  
 
 </details>
 <!--END_SECTION:activity-->
