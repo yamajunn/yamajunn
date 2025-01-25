@@ -161,7 +161,6 @@
 `[10/26 04:45]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
 `[10/25 06:27]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/MyTheme/tree/main) in [yamajunn/MyTheme](https://github.com/yamajunn/MyTheme)  
 `[10/25 06:26]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/MyTheme](https://github.com/yamajunn/MyTheme)  
-`[10/25 00:59]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/3D](https://github.com/yamajunn/3D)  
 
 </details>
 <!--END_SECTION:activity-->
