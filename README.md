@@ -104,7 +104,19 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/search-tasks`](https://github.com/yamajunn/spring-boot-todo/tree/feat/search-tasks) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/toggle-task`](https://github.com/yamajunn/spring-boot-todo/tree/feat/toggle-task) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/get-projects`](https://github.com/yamajunn/spring-boot-todo/tree/feat/get-projects) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/add-project`](https://github.com/yamajunn/spring-boot-todo/tree/feat/add-project) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`test/add-projects`](https://github.com/yamajunn/spring-boot-todo/tree/test/add-projects) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/update-task`](https://github.com/yamajunn/spring-boot-todo/tree/feat/update-task) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-todo/tree/main) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/delete-task`](https://github.com/yamajunn/spring-boot-todo/tree/feat/delete-task) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/add-tasks`](https://github.com/yamajunn/spring-boot-todo/tree/feat/add-tasks) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 03:02]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
+
+<details><summary>Show More</summary>
+
 `[01/25 02:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
 `[01/19 08:15]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
 `[01/03 11:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `3` commits in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
@@ -114,9 +126,6 @@
 `[12/21 04:39]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`develop`](https://github.com/yamajunn/spring-boot-api-training-2/tree/develop) in [yamajunn/spring-boot-api-training-2](https://github.com/yamajunn/spring-boot-api-training-2)  
 `[12/21 04:39]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-api-training-2/tree/main) in [yamajunn/spring-boot-api-training-2](https://github.com/yamajunn/spring-boot-api-training-2)  
 `[12/21 04:38]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-api-training-2](https://github.com/yamajunn/spring-boot-api-training-2)  
-
-<details><summary>Show More</summary>
-
 `[12/20 15:28]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [SpencerPark/IJava](https://github.com/SpencerPark/IJava)  
 `[12/20 14:33]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`master`](https://github.com/yamajunn/CLRY/tree/master) in [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
 `[12/20 14:33]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
