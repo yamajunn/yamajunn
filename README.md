@@ -158,8 +158,6 @@
 `[10/28 06:16]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `10` commits in [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
 `[10/26 06:57]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/Terminal_GUI/tree/main) in [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
 `[10/26 06:56]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/Terminal_GUI](https://github.com/yamajunn/Terminal_GUI)  
-`[10/26 04:45]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-todo-master/tree/main) in [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
-`[10/26 04:45]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
 
 </details>
 <!--END_SECTION:activity-->
