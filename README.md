@@ -120,7 +120,6 @@
 `[01/25 03:02]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 02:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
 `[01/19 08:15]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
-`[01/03 11:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 
 </details>
 <!--END_SECTION:activity-->
