@@ -104,6 +104,7 @@
 
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
+`[02/17 13:30]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
 `[01/26 02:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
 `[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/search-tasks`](https://github.com/yamajunn/spring-boot-todo/tree/feat/search-tasks) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/toggle-task`](https://github.com/yamajunn/spring-boot-todo/tree/feat/toggle-task) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
@@ -113,10 +114,10 @@
 `[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/update-task`](https://github.com/yamajunn/spring-boot-todo/tree/feat/update-task) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`main`](https://github.com/yamajunn/spring-boot-todo/tree/main) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/delete-task`](https://github.com/yamajunn/spring-boot-todo/tree/feat/delete-task) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
-`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/add-tasks`](https://github.com/yamajunn/spring-boot-todo/tree/feat/add-tasks) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 
 <details><summary>Show More</summary>
 
+`[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/add-tasks`](https://github.com/yamajunn/spring-boot-todo/tree/feat/add-tasks) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 03:02]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 02:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
 `[01/19 08:15]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
