@@ -119,7 +119,6 @@
 
 `[01/25 03:16]` <img alt="📂" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-branch.png" align="top" height="18"> Created branch [`feat/add-tasks`](https://github.com/yamajunn/spring-boot-todo/tree/feat/add-tasks) in [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
 `[01/25 03:02]` <img alt="➕" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/create-repo.png" align="top" height="18"> Created repository [yamajunn/spring-boot-todo](https://github.com/yamajunn/spring-boot-todo)  
-`[01/25 02:33]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `5` commits in [yamajunn/spring-boot-todo-master](https://github.com/yamajunn/spring-boot-todo-master)  
 
 </details>
 <!--END_SECTION:activity-->
