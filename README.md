@@ -105,7 +105,6 @@
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
 `[02/17 13:30]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
-`[01/26 02:22]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/CLRY](https://github.com/yamajunn/CLRY)  
 
 </details>
 <!--END_SECTION:activity-->
