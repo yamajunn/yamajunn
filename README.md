@@ -105,7 +105,6 @@
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
 `[03/21 16:08]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `13` commits in [yamajunn/IM2MC](https://github.com/yamajunn/IM2MC)  
-`[03/05 01:51]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `1` commit in [yamajunn/AI_Implementation](https://github.com/yamajunn/AI_Implementation)  
 
 </details>
 <!--END_SECTION:activity-->
