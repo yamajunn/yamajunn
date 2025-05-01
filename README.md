@@ -20,7 +20,7 @@
   
 ##### ・ My native language is <mark>Japanese</mark>
   
-##### ・ I have been studying programming for <mark>three years</mark>
+##### ・ I have been studying programming for <mark>four years</mark>
   
 ---
 ## 🔧 Technology used
