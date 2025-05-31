@@ -105,7 +105,6 @@
 ## ⚡️ Actions
   <!--START_SECTION:activity-->
 `[05/07 02:39]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [kxkx5150/HariboteOS-Codespaces](https://github.com/kxkx5150/HariboteOS-Codespaces)  
-`[05/01 06:47]` <img alt="📝" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/commit.png" align="top" height="18"> Made `2` commits in [yamajunn/yamajunn](https://github.com/yamajunn/yamajunn)  
 
 </details>
 <!--END_SECTION:activity-->
