@@ -102,9 +102,3 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yamajunn&theme=slateorange&utcOffset=9)
 ![trophy](https://github-profile-trophy.vercel.app/?username=yamajunn&theme=discord&margin-w=15&no-bg=true&column=6&no-frame=true&rank=-?)
 
-## ⚡️ Actions
-  <!--START_SECTION:activity-->
-`[06/08 22:46]` <img alt="⭐" src="https://github.com/cheesits456/github-activity-readme/raw/master/icons/star.png" align="top" height="18"> Starred [Olow304/memvid](https://github.com/Olow304/memvid)  
-
-</details>
-<!--END_SECTION:activity-->
