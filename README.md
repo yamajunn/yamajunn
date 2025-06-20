@@ -5,12 +5,12 @@
   <a href="https://github.com/yamajunn">
     <img height="20" src="https://img.shields.io/github/followers/yamajunn?label=follow&logo=github&style=flat" />
   </a>
-  <a href="http://qiita.com/amiton1115">
+<!--   <a href="http://qiita.com/amiton1115">
     <img height="20" src="https://qiita-badge.apiapi.app/s/amiton1115/posts.svg" />
   </a>
   <//qiita.com/amiton1115">
     <img height="20" src="https://qiita-badge.apiapi.app/s/amiton1115/contributions.svg" />
-  </a>
+  </a> -->
 </p>
   
 # 👋 Hi there
