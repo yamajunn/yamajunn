@@ -12,10 +12,6 @@
     <img height="20" src="https://qiita-badge.apiapi.app/s/amiton1115/contributions.svg" />
   </a> -->
 </p>
-  
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yamajunn/yamajunn/main/assets/grass_terrain.svg" alt="grass terrain" />
-</p>
 
 # 👋 Hi there
 
@@ -92,6 +88,10 @@
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yamajunn/yamajunn/main/assets/grass_terrain.svg" alt="grass terrain" />
+</p>
   
 ## 📚 Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=slateorange)
