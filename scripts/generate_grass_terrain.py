@@ -231,11 +231,11 @@ def generate_svg(grid: list[list[int]]) -> str:
 
     if path:
         points = " ".join(f"{center(x, y)[0]:.2f},{center(x, y)[1]:.2f}" for x, y in path)
-        parts.append(f'<polyline points="{points}" fill="none" stroke="#f2cc60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
+        parts.append(f'<polyline points="{points}" fill="none" stroke="#C66D00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
         sx, sy = center(*path[0])
         gx, gy = center(*path[-1])
-        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="4" fill="#58a6ff"/>')
-        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="4" fill="#ff7b72"/>')
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="4" fill="#F8F8F8"/>')
+        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="4" fill="#F8F8F8"/>')
 
     parts.append("</svg>")
     return "\n".join(parts)
