@@ -1,11 +1,11 @@
 from __future__ import annotations
 
+import heapq
 import html
 import json
 import math
 import os
 import re
-import heapq
 import urllib.request
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
@@ -14,7 +14,7 @@ from pathlib import Path
 USERNAME = "yamajunn"
 OUT = Path("assets/grass_terrain.svg")
 ROWS = 7
-MAX_COLS = 53
+COLS = 53
 JST = timezone(timedelta(hours=9))
 
 
@@ -55,16 +55,15 @@ def fetch_graphql_counts(token: str) -> list[DayCount]:
     )
     with urllib.request.urlopen(req, timeout=30) as res:
         data = json.loads(res.read().decode("utf-8"))
-
     if data.get("errors"):
         raise RuntimeError(data["errors"])
 
     weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-    out: list[DayCount] = []
-    for week in weeks:
-        for d in week["contributionDays"]:
-            out.append(DayCount(date.fromisoformat(d["date"]), int(d["contributionCount"])))
-    return out
+    return [
+        DayCount(date.fromisoformat(day["date"]), int(day["contributionCount"]))
+        for week in weeks
+        for day in week["contributionDays"]
+    ]
 
 
 def fetch_public_html_counts() -> list[DayCount]:
@@ -72,20 +71,17 @@ def fetch_public_html_counts() -> list[DayCount]:
     url = f"https://github.com/users/{USERNAME}/contributions?to={today.isoformat()}"
     req = urllib.request.Request(
         url,
-        headers={
-            "Accept": "text/html",
-            "User-Agent": f"{USERNAME}-grass-terrain",
-        },
+        headers={"Accept": "text/html", "User-Agent": f"{USERNAME}-grass-terrain"},
     )
     with urllib.request.urlopen(req, timeout=30) as res:
         text = res.read().decode("utf-8", errors="replace")
 
-    out: list[DayCount] = []
-    for m in re.finditer(r"<[^>]+data-date=\"(\d{4}-\d{2}-\d{2})\"[^>]*>", text):
+    counts: list[DayCount] = []
+    pattern = r"<[^>]+data-date=\"(\d{4}-\d{2}-\d{2})\"[^>]*>"
+    for m in re.finditer(pattern, text):
         tag = m.group(0)
         attrs = dict(re.findall(r"([a-zA-Z0-9_:-]+)=\"([^\"]*)\"", tag))
         day = date.fromisoformat(attrs["data-date"])
-
         if "data-count" in attrs:
             count = int(attrs["data-count"])
         else:
@@ -93,66 +89,59 @@ def fetch_public_html_counts() -> list[DayCount]:
             if label.lower().startswith("no contributions"):
                 count = 0
             else:
-                n = re.search(r"(\d+)\s+contribution", label)
-                count = int(n.group(1)) if n else int(attrs.get("data-level", "0"))
+                found = re.search(r"(\d+)\s+contribution", label)
+                count = int(found.group(1)) if found else int(attrs.get("data-level", "0"))
+        counts.append(DayCount(day, count))
 
-        out.append(DayCount(day, count))
-
-    if not out:
+    if not counts:
         raise RuntimeError("Could not parse contribution calendar")
-    return out
+    return counts
 
 
 def fetch_counts() -> list[DayCount]:
     token = os.getenv("PROFILE_TOKEN")
-    if token:
-        return fetch_graphql_counts(token)
-    return fetch_public_html_counts()
+    return fetch_graphql_counts(token) if token else fetch_public_html_counts()
 
 
-def sunday_of(d: date) -> date:
-    return d - timedelta(days=(d.weekday() + 1) % 7)
+def sunday_of(day: date) -> date:
+    return day - timedelta(days=(day.weekday() + 1) % 7)
 
 
 def build_grid(days: list[DayCount]) -> list[list[int]]:
-    by_day = {d.day: d.count for d in days}
-    max_day = max(by_day)
-    start = sunday_of(max_day) - timedelta(days=7 * (MAX_COLS - 1))
-
-    grid = [[0 for _ in range(MAX_COLS)] for _ in range(ROWS)]
-    for col in range(MAX_COLS):
-        for row in range(ROWS):
-            day = start + timedelta(days=col * 7 + row)
-            grid[row][col] = by_day.get(day, 0)
+    by_day = {item.day: item.count for item in days}
+    last_day = max(by_day)
+    start_day = sunday_of(last_day) - timedelta(days=7 * (COLS - 1))
+    grid = [[0 for _ in range(COLS)] for _ in range(ROWS)]
+    for x in range(COLS):
+        for y in range(ROWS):
+            grid[y][x] = by_day.get(start_day + timedelta(days=x * 7 + y), 0)
     return grid
 
 
 def normalized_heights(grid: list[list[int]]) -> list[list[float]]:
-    values = [v for row in grid for v in row]
-    max_log = max([math.log1p(v) for v in values] + [1.0])
+    max_log = max([math.log1p(v) for row in grid for v in row] + [1.0])
     return [[math.log1p(v) / max_log for v in row] for row in grid]
 
 
 def astar(height: list[list[float]]) -> list[tuple[int, int]]:
-    cols = len(height[0])
     start = (0, ROWS // 2)
-    goal = (cols - 1, ROWS // 2)
+    goal = (COLS - 1, ROWS // 2)
 
-    def h(a: tuple[int, int], b: tuple[int, int]) -> float:
+    def heuristic(a: tuple[int, int], b: tuple[int, int]) -> float:
         return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
     def neighbors(x: int, y: int):
         for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
             nx, ny = x + dx, y + dy
-            if 0 <= nx < cols and 0 <= ny < ROWS:
+            if 0 <= nx < COLS and 0 <= ny < ROWS:
                 yield nx, ny
 
-    open_set: list[tuple[float, tuple[int, int]]] = [(0.0, start)]
+    queue: list[tuple[float, tuple[int, int]]] = [(0.0, start)]
     came_from: dict[tuple[int, int], tuple[int, int]] = {}
     g_score = {start: 0.0}
 
-    while open_set:
-        _, current = heapq.heappop(open_set)
+    while queue:
+        _, current = heapq.heappop(queue)
         if current == goal:
             path = [current]
             while current in came_from:
@@ -165,12 +154,11 @@ def astar(height: list[list[float]]) -> list[tuple[int, int]]:
             move_cost = 1.0
             height_cost = height[ny][nx] * 1.4
             slope_cost = abs(height[ny][nx] - height[cy][cx]) * 3.2
-            tentative = g_score[current] + move_cost + height_cost + slope_cost
-            if tentative < g_score.get((nx, ny), float("inf")):
+            score = g_score[current] + move_cost + height_cost + slope_cost
+            if score < g_score.get((nx, ny), float("inf")):
                 came_from[(nx, ny)] = current
-                g_score[(nx, ny)] = tentative
-                heapq.heappush(open_set, (tentative + h((nx, ny), goal), (nx, ny)))
-
+                g_score[(nx, ny)] = score
+                heapq.heappush(queue, (score + heuristic((nx, ny), goal), (nx, ny)))
     return []
 
 
@@ -190,36 +178,31 @@ def shade(color: str, factor: float) -> str:
 
 def grass_color(v: float) -> str:
     palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-    idx = min(4, max(0, int(round(v * 4))))
-    return palette[idx]
+    return palette[min(4, max(0, int(round(v * 4))))]
 
 
 def generate_svg(grid: list[list[int]]) -> str:
     heights = normalized_heights(grid)
     path = astar(heights)
 
-    cols = len(grid[0])
-
-    # Side-view wide projection.
-    # x is stretched strongly, depth is compressed, and height is emphasized.
+    # Wide, zoomed projection with a slightly higher camera angle.
+    # Compared with the previous side view, depth_y is larger and z_scale is lower,
+    # so the top faces are more visible while the image remains horizontally long.
     tile_w = 18.0
-    tile_h = 7.0
-    depth_x = 3.4
-    depth_y = 4.3
-    z_scale = 46.0
-    margin_x = 26.0
+    tile_h = 8.5
+    depth_x = 5.6
+    depth_y = 8.2
+    z_scale = 36.0
+    margin_x = 24.0
     margin_y = 14.0
 
-    width = int(margin_x * 2 + cols * tile_w + ROWS * depth_x + tile_w)
-    height_px = int(margin_y * 2 + ROWS * depth_y + tile_h + z_scale + 12)
-
+    width = int(margin_x * 2 + COLS * tile_w + ROWS * depth_x + tile_w)
+    height_px = int(margin_y * 2 + ROWS * depth_y + tile_h + z_scale + 14)
     base_y = margin_y + z_scale + 7.0
 
     def top_origin(x: int, y: int) -> tuple[float, float]:
         z = heights[y][x] * z_scale
-        ox = margin_x + x * tile_w + y * depth_x
-        oy = base_y + y * depth_y - z
-        return ox, oy
+        return margin_x + x * tile_w + y * depth_x, base_y + y * depth_y - z
 
     def top_center(x: int, y: int) -> tuple[float, float]:
         ox, oy = top_origin(x, y)
@@ -228,13 +211,13 @@ def generate_svg(grid: list[list[int]]) -> str:
     def points(poly: list[tuple[float, float]]) -> str:
         return " ".join(f"{x:.2f},{y:.2f}" for x, y in poly)
 
-    parts: list[str] = []
-    parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height_px}" viewBox="0 0 {width} {height_px}" role="img">')
-    parts.append(f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>')
+    parts: list[str] = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height_px}" viewBox="0 0 {width} {height_px}" role="img">',
+        f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>',
+    ]
 
-    # Draw far rows first, near rows last.
     for y in range(ROWS - 1, -1, -1):
-        for x in range(cols):
+        for x in range(COLS):
             h = heights[y][x]
             z = h * z_scale
             ox, oy = top_origin(x, y)
@@ -262,7 +245,6 @@ def generate_svg(grid: list[list[int]]) -> str:
             if z > 0.2:
                 parts.append(f'<polygon points="{points(right)}" fill="{shade(base, 0.50)}"/>')
                 parts.append(f'<polygon points="{points(front)}" fill="{shade(base, 0.65)}"/>')
-
             parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.7"/>')
 
     if path:
@@ -279,8 +261,7 @@ def generate_svg(grid: list[list[int]]) -> str:
 
 def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    counts = fetch_counts()
-    grid = build_grid(counts)
+    grid = build_grid(fetch_counts())
     OUT.write_text(generate_svg(grid), encoding="utf-8")
 
 
