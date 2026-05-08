@@ -185,14 +185,16 @@ def generate_svg(grid: list[list[int]]) -> str:
     heights = normalized_heights(grid)
     path = astar(heights)
 
-    # Wide, zoomed projection with a slightly higher camera angle.
-    # Compared with the previous side view, depth_y is larger and z_scale is lower,
-    # so the top faces are more visible while the image remains horizontally long.
+    # View parameters.
+    # Increase tile_h/depth_y and decrease z_scale to look more from above.
+    # Decrease tile_h/depth_y and increase z_scale to look more from the side.
     tile_w = 18.0
     tile_h = 10.5
     depth_x = 6.8
     depth_y = 11.0
     z_scale = 28.0
+    margin_x = 24.0
+    margin_y = 14.0
 
     width = int(margin_x * 2 + COLS * tile_w + ROWS * depth_x + tile_w)
     height_px = int(margin_y * 2 + ROWS * depth_y + tile_h + z_scale + 14)
