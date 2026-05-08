@@ -14,7 +14,7 @@
 </p>
   
 <p align="center">
-  <img src="./assets/grass_terrain.svg" alt="" />
+  <img src="https://raw.githubusercontent.com/yamajunn/yamajunn/main/assets/grass_terrain.svg" alt="grass terrain" />
 </p>
 
 # 👋 Hi there
