@@ -88,13 +88,13 @@
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yamajunn/yamajunn/main/assets/grass_terrain.svg" alt="grass terrain" />
-</p>
   
 ## 📚 Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=slateorange)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yamajunn&theme=slateorange&utcOffset=9)
 ![trophy](https://github-profile-trophy.vercel.app/?username=yamajunn&theme=discord&margin-w=15&no-bg=true&column=6&no-frame=true&rank=-?)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yamajunn/yamajunn/main/assets/grass_terrain.svg" alt="grass terrain" />
+</p>
 
