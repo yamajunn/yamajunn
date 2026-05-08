@@ -13,6 +13,10 @@
   </a> -->
 </p>
   
+<p align="center">
+  <img src="./assets/grass_terrain.svg" alt="" />
+</p>
+
 # 👋 Hi there
 
 ## 🔧 Technology used
