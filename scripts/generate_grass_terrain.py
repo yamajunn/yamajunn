@@ -189,12 +189,10 @@ def generate_svg(grid: list[list[int]]) -> str:
     # Compared with the previous side view, depth_y is larger and z_scale is lower,
     # so the top faces are more visible while the image remains horizontally long.
     tile_w = 18.0
-    tile_h = 8.5
-    depth_x = 5.6
-    depth_y = 8.2
-    z_scale = 36.0
-    margin_x = 24.0
-    margin_y = 14.0
+    tile_h = 10.5
+    depth_x = 6.8
+    depth_y = 11.0
+    z_scale = 28.0
 
     width = int(margin_x * 2 + COLS * tile_w + ROWS * depth_x + tile_w)
     height_px = int(margin_y * 2 + ROWS * depth_y + tile_h + z_scale + 14)
