@@ -216,36 +216,46 @@ def generate_svg(grid: list[list[int]]) -> str:
         f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>',
     ]
 
-    for y in range(ROWS - 1, -1, -1):
+    cells: list[tuple[float, int, int]] = []
+    for y in range(ROWS):
         for x in range(COLS):
-            h = heights[y][x]
-            z = h * z_scale
             ox, oy = top_origin(x, y)
-            base = grass_color(h)
+            z = heights[y][x] * z_scale
+            # Painter key: draw upper/far cells first, lower/near cells later.
+            # Include x/y tie breakers so diagonal neighbors are stable.
+            bottom_y = oy + depth_y + z
+            key = bottom_y + x * 0.01 + y * 0.25
+            cells.append((key, x, y))
 
-            top = [
-                (ox, oy),
-                (ox + tile_w, oy),
-                (ox + tile_w + depth_x, oy + depth_y),
-                (ox + depth_x, oy + depth_y),
-            ]
-            front = [
-                (ox + depth_x, oy + depth_y),
-                (ox + tile_w + depth_x, oy + depth_y),
-                (ox + tile_w + depth_x, oy + depth_y + z),
-                (ox + depth_x, oy + depth_y + z),
-            ]
-            right = [
-                (ox + tile_w, oy),
-                (ox + tile_w + depth_x, oy + depth_y),
-                (ox + tile_w + depth_x, oy + depth_y + z),
-                (ox + tile_w, oy + z),
-            ]
+    for _, x, y in sorted(cells):
+        h = heights[y][x]
+        z = h * z_scale
+        ox, oy = top_origin(x, y)
+        base = grass_color(h)
 
-            if z > 0.2:
-                parts.append(f'<polygon points="{points(right)}" fill="{shade(base, 0.50)}"/>')
-                parts.append(f'<polygon points="{points(front)}" fill="{shade(base, 0.65)}"/>')
-            parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.7"/>')
+        top = [
+            (ox, oy),
+            (ox + tile_w, oy),
+            (ox + tile_w + depth_x, oy + depth_y),
+            (ox + depth_x, oy + depth_y),
+        ]
+        front = [
+            (ox + depth_x, oy + depth_y),
+            (ox + tile_w + depth_x, oy + depth_y),
+            (ox + tile_w + depth_x, oy + depth_y + z),
+            (ox + depth_x, oy + depth_y + z),
+        ]
+        right = [
+            (ox + tile_w, oy),
+            (ox + tile_w + depth_x, oy + depth_y),
+            (ox + tile_w + depth_x, oy + depth_y + z),
+            (ox + tile_w, oy + z),
+        ]
+
+        if z > 0.2:
+            parts.append(f'<polygon points="{points(right)}" fill="{shade(base, 0.50)}"/>')
+            parts.append(f'<polygon points="{points(front)}" fill="{shade(base, 0.65)}"/>')
+        parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.7"/>')
 
     if path:
         line_points = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
