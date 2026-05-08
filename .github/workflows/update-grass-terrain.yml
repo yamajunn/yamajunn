@@ -1,0 +1,39 @@
+name: Update grass terrain
+
+on:
+  schedule:
+    - cron: "0 15 * * *" # JST 00:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-grass-terrain:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate grass terrain SVG
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python scripts/generate_grass_terrain.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git add assets/grass_terrain.svg
+          git commit -m "Update grass terrain"
+          git push
