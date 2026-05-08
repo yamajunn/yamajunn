@@ -174,68 +174,94 @@ def astar(height: list[list[float]]) -> list[tuple[int, int]]:
     return []
 
 
+def clamp(v: int) -> int:
+    return max(0, min(255, v))
+
+
+def hex_to_rgb(color: str) -> tuple[int, int, int]:
+    color = color.lstrip("#")
+    return int(color[0:2], 16), int(color[2:4], 16), int(color[4:6], 16)
+
+
+def shade(color: str, factor: float) -> str:
+    r, g, b = hex_to_rgb(color)
+    return f"#{clamp(int(r * factor)):02x}{clamp(int(g * factor)):02x}{clamp(int(b * factor)):02x}"
+
+
 def grass_color(v: float) -> str:
     palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
     idx = min(4, max(0, int(round(v * 4))))
     return palette[idx]
 
 
-def svg_escape(s: str) -> str:
-    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
-
 def generate_svg(grid: list[list[int]]) -> str:
     heights = normalized_heights(grid)
     path = astar(heights)
 
-    cell = 12
-    gap = 3
-    margin = 10
-    lift = 8
     cols = len(grid[0])
-    width = margin * 2 + cols * cell + (cols - 1) * gap
-    height_px = margin * 2 + ROWS * cell + (ROWS - 1) * gap + lift
+    tile_w = 13.0
+    tile_h = 7.0
+    z_scale = 22.0
+    margin_x = 34.0
+    margin_y = 18.0
 
-    def xy(x: int, y: int) -> tuple[float, float]:
-        z = heights[y][x] * lift
-        return margin + x * (cell + gap), margin + y * (cell + gap) - z + lift
+    width = int(margin_x * 2 + (cols + ROWS) * tile_w / 2 + 8)
+    height_px = int(margin_y * 2 + (cols + ROWS) * tile_h / 2 + z_scale + 14)
 
-    def center(x: int, y: int) -> tuple[float, float]:
-        px, py = xy(x, y)
-        return px + cell / 2, py + cell / 2
+    origin_x = margin_x + ROWS * tile_w / 2
+    origin_y = margin_y + z_scale + 4
+
+    def top_center(x: int, y: int) -> tuple[float, float]:
+        z = heights[y][x] * z_scale
+        sx = origin_x + (x - y) * tile_w / 2
+        sy = origin_y + (x + y) * tile_h / 2 - z
+        return sx, sy
+
+    def diamond(cx: float, cy: float) -> list[tuple[float, float]]:
+        return [
+            (cx, cy - tile_h / 2),
+            (cx + tile_w / 2, cy),
+            (cx, cy + tile_h / 2),
+            (cx - tile_w / 2, cy),
+        ]
+
+    def points(poly: list[tuple[float, float]]) -> str:
+        return " ".join(f"{x:.2f},{y:.2f}" for x, y in poly)
 
     parts: list[str] = []
     parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height_px}" viewBox="0 0 {width} {height_px}" role="img">')
     parts.append(f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>')
 
-    for y in range(ROWS):
-        for x in range(cols):
-            px, py = xy(x, y)
-            color = grass_color(heights[y][x])
-            opacity = 0.35 + heights[y][x] * 0.65
-            parts.append(f'<rect x="{px:.2f}" y="{py:.2f}" width="{cell}" height="{cell}" rx="3" fill="{color}" opacity="{opacity:.2f}"/>')
+    # Draw back-to-front so columns overlap correctly.
+    for s in range(cols + ROWS - 1):
+        for y in range(ROWS):
+            x = s - y
+            if not (0 <= x < cols):
+                continue
 
-    # contour-like edges where the height difference is large
-    for y in range(ROWS):
-        for x in range(cols - 1):
-            if abs(heights[y][x + 1] - heights[y][x]) > 0.28:
-                x1, y1 = center(x, y)
-                x2, y2 = center(x + 1, y)
-                parts.append(f'<line x1="{x1:.2f}" y1="{y1:.2f}" x2="{x2:.2f}" y2="{y2:.2f}" stroke="#c9d1d9" stroke-opacity="0.18" stroke-width="1"/>')
-    for y in range(ROWS - 1):
-        for x in range(cols):
-            if abs(heights[y + 1][x] - heights[y][x]) > 0.28:
-                x1, y1 = center(x, y)
-                x2, y2 = center(x, y + 1)
-                parts.append(f'<line x1="{x1:.2f}" y1="{y1:.2f}" x2="{x2:.2f}" y2="{y2:.2f}" stroke="#c9d1d9" stroke-opacity="0.14" stroke-width="1"/>')
+            h = heights[y][x]
+            z = h * z_scale
+            cx, cy = top_center(x, y)
+            top = diamond(cx, cy)
+            bottom = diamond(cx, cy + z)
+            base = grass_color(h)
+
+            left_face = [top[2], top[3], bottom[3], bottom[2]]
+            right_face = [top[1], top[2], bottom[2], bottom[1]]
+
+            if z > 0.2:
+                parts.append(f'<polygon points="{points(left_face)}" fill="{shade(base, 0.48)}"/>')
+                parts.append(f'<polygon points="{points(right_face)}" fill="{shade(base, 0.64)}"/>')
+
+            parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.65"/>')
 
     if path:
-        points = " ".join(f"{center(x, y)[0]:.2f},{center(x, y)[1]:.2f}" for x, y in path)
-        parts.append(f'<polyline points="{points}" fill="none" stroke="#C66D00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
-        sx, sy = center(*path[0])
-        gx, gy = center(*path[-1])
-        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="4" fill="#F8F8F8"/>')
-        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="4" fill="#F8F8F8"/>')
+        line_points = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
+        parts.append(f'<polyline points="{line_points}" fill="none" stroke="#f2cc60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
+        sx, sy = top_center(*path[0])
+        gx, gy = top_center(*path[-1])
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
+        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
 
     parts.append("</svg>")
     return "\n".join(parts)
