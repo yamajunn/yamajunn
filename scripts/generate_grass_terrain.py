@@ -199,31 +199,31 @@ def generate_svg(grid: list[list[int]]) -> str:
     path = astar(heights)
 
     cols = len(grid[0])
-    tile_w = 13.0
+
+    # Side-view wide projection.
+    # x is stretched strongly, depth is compressed, and height is emphasized.
+    tile_w = 18.0
     tile_h = 7.0
-    z_scale = 22.0
-    margin_x = 34.0
-    margin_y = 18.0
+    depth_x = 3.4
+    depth_y = 4.3
+    z_scale = 46.0
+    margin_x = 26.0
+    margin_y = 14.0
 
-    width = int(margin_x * 2 + (cols + ROWS) * tile_w / 2 + 8)
-    height_px = int(margin_y * 2 + (cols + ROWS) * tile_h / 2 + z_scale + 14)
+    width = int(margin_x * 2 + cols * tile_w + ROWS * depth_x + tile_w)
+    height_px = int(margin_y * 2 + ROWS * depth_y + tile_h + z_scale + 12)
 
-    origin_x = margin_x + ROWS * tile_w / 2
-    origin_y = margin_y + z_scale + 4
+    base_y = margin_y + z_scale + 7.0
+
+    def top_origin(x: int, y: int) -> tuple[float, float]:
+        z = heights[y][x] * z_scale
+        ox = margin_x + x * tile_w + y * depth_x
+        oy = base_y + y * depth_y - z
+        return ox, oy
 
     def top_center(x: int, y: int) -> tuple[float, float]:
-        z = heights[y][x] * z_scale
-        sx = origin_x + (x - y) * tile_w / 2
-        sy = origin_y + (x + y) * tile_h / 2 - z
-        return sx, sy
-
-    def diamond(cx: float, cy: float) -> list[tuple[float, float]]:
-        return [
-            (cx, cy - tile_h / 2),
-            (cx + tile_w / 2, cy),
-            (cx, cy + tile_h / 2),
-            (cx - tile_w / 2, cy),
-        ]
+        ox, oy = top_origin(x, y)
+        return ox + tile_w / 2 + depth_x / 2, oy + tile_h / 2
 
     def points(poly: list[tuple[float, float]]) -> str:
         return " ".join(f"{x:.2f},{y:.2f}" for x, y in poly)
@@ -232,36 +232,46 @@ def generate_svg(grid: list[list[int]]) -> str:
     parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height_px}" viewBox="0 0 {width} {height_px}" role="img">')
     parts.append(f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>')
 
-    # Draw back-to-front so columns overlap correctly.
-    for s in range(cols + ROWS - 1):
-        for y in range(ROWS):
-            x = s - y
-            if not (0 <= x < cols):
-                continue
-
+    # Draw far rows first, near rows last.
+    for y in range(ROWS - 1, -1, -1):
+        for x in range(cols):
             h = heights[y][x]
             z = h * z_scale
-            cx, cy = top_center(x, y)
-            top = diamond(cx, cy)
-            bottom = diamond(cx, cy + z)
+            ox, oy = top_origin(x, y)
             base = grass_color(h)
 
-            left_face = [top[2], top[3], bottom[3], bottom[2]]
-            right_face = [top[1], top[2], bottom[2], bottom[1]]
+            top = [
+                (ox, oy),
+                (ox + tile_w, oy),
+                (ox + tile_w + depth_x, oy + depth_y),
+                (ox + depth_x, oy + depth_y),
+            ]
+            front = [
+                (ox + depth_x, oy + depth_y),
+                (ox + tile_w + depth_x, oy + depth_y),
+                (ox + tile_w + depth_x, oy + depth_y + z),
+                (ox + depth_x, oy + depth_y + z),
+            ]
+            right = [
+                (ox + tile_w, oy),
+                (ox + tile_w + depth_x, oy + depth_y),
+                (ox + tile_w + depth_x, oy + depth_y + z),
+                (ox + tile_w, oy + z),
+            ]
 
             if z > 0.2:
-                parts.append(f'<polygon points="{points(left_face)}" fill="{shade(base, 0.48)}"/>')
-                parts.append(f'<polygon points="{points(right_face)}" fill="{shade(base, 0.64)}"/>')
+                parts.append(f'<polygon points="{points(right)}" fill="{shade(base, 0.50)}"/>')
+                parts.append(f'<polygon points="{points(front)}" fill="{shade(base, 0.65)}"/>')
 
-            parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.65"/>')
+            parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.7"/>')
 
     if path:
         line_points = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
-        parts.append(f'<polyline points="{line_points}" fill="none" stroke="#7B7B7B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
+        parts.append(f'<polyline points="{line_points}" fill="none" stroke="#f2cc60" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>')
         sx, sy = top_center(*path[0])
         gx, gy = top_center(*path[-1])
-        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.5" fill="#000000" stroke="#0d1117" stroke-width="1"/>')
-        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.5" fill="#000000" stroke="#0d1117" stroke-width="1"/>')
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.8" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
+        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.8" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
 
     parts.append("</svg>")
     return "\n".join(parts)
