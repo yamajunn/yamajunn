@@ -216,18 +216,7 @@ def generate_svg(grid: list[list[int]]) -> str:
         f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>',
     ]
 
-    cells: list[tuple[float, int, int]] = []
-    for y in range(ROWS):
-        for x in range(COLS):
-            ox, oy = top_origin(x, y)
-            z = heights[y][x] * z_scale
-            # Painter key: draw upper/far cells first, lower/near cells later.
-            # Include x/y tie breakers so diagonal neighbors are stable.
-            bottom_y = oy + depth_y + z
-            key = bottom_y + x * 0.01 + y * 0.25
-            cells.append((key, x, y))
-
-    for _, x, y in sorted(cells):
+    def draw_column(x: int, y: int) -> None:
         h = heights[y][x]
         z = h * z_scale
         ox, oy = top_origin(x, y)
@@ -256,6 +245,13 @@ def generate_svg(grid: list[list[int]]) -> str:
             parts.append(f'<polygon points="{points(right)}" fill="{shade(base, 0.50)}"/>')
             parts.append(f'<polygon points="{points(front)}" fill="{shade(base, 0.65)}"/>')
         parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.7"/>')
+
+    # Stable painter order for this side/top projection:
+    # y=0 is the far row, y=ROWS-1 is the near row.  Do not use height in the
+    # layer key; a tall far column must not be allowed to cover a nearer row.
+    for y in range(ROWS):
+        for x in range(COLS):
+            draw_column(x, y)
 
     if path:
         line_points = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
