@@ -111,6 +111,7 @@ def build_grid(days: list[DayCount]) -> list[list[int]]:
     by_day = {item.day: item.count for item in days}
     last_day = max(by_day)
     start_day = sunday_of(last_day) - timedelta(days=7 * (COLS - 1))
+
     grid = [[0 for _ in range(COLS)] for _ in range(ROWS)]
     for x in range(COLS):
         for y in range(ROWS):
@@ -152,8 +153,8 @@ def astar(height: list[list[float]]) -> list[tuple[int, int]]:
         cx, cy = current
         for nx, ny in neighbors(cx, cy):
             move_cost = 1.0
-            height_cost = height[ny][nx] * 1.4
-            slope_cost = abs(height[ny][nx] - height[cy][cx]) * 3.2
+            height_cost = height[ny][nx] * 1.2
+            slope_cost = abs(height[ny][nx] - height[cy][cx]) * 2.8
             score = g_score[current] + move_cost + height_cost + slope_cost
             if score < g_score.get((nx, ny), float("inf")):
                 came_from[(nx, ny)] = current
@@ -162,8 +163,8 @@ def astar(height: list[list[float]]) -> list[tuple[int, int]]:
     return []
 
 
-def clamp(v: int) -> int:
-    return max(0, min(255, v))
+def clamp(value: int) -> int:
+    return max(0, min(255, value))
 
 
 def hex_to_rgb(color: str) -> tuple[int, int, int]:
@@ -176,90 +177,88 @@ def shade(color: str, factor: float) -> str:
     return f"#{clamp(int(r * factor)):02x}{clamp(int(g * factor)):02x}{clamp(int(b * factor)):02x}"
 
 
-def grass_color(v: float) -> str:
+def grass_color(value: float) -> str:
     palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-    return palette[min(4, max(0, int(round(v * 4))))]
+    return palette[min(4, max(0, int(round(value * 4))))]
 
 
 def generate_svg(grid: list[list[int]]) -> str:
     heights = normalized_heights(grid)
     path = astar(heights)
 
-    # View parameters.
-    # Increase tile_h/depth_y and decrease z_scale to look more from above.
-    # Decrease tile_h/depth_y and increase z_scale to look more from the side.
-    tile_w = 18.0
-    tile_h = 10.5
-    depth_x = 6.8
-    depth_y = 11.0
-    z_scale = 28.0
-    margin_x = 24.0
+    # Projection is intentionally simple and stable:
+    # - columns are separated horizontally, so neighboring columns do not fight for z-order
+    # - rows are drawn from back to front
+    # - each column is drawn as right face -> front face -> top face
+    tile_w = 14.0
+    tile_h = 8.0
+    x_step = 19.0
+    depth_x = 7.0
+    depth_y = 10.0
+    z_scale = 30.0
+    margin_x = 22.0
     margin_y = 14.0
 
-    width = int(margin_x * 2 + COLS * tile_w + ROWS * depth_x + tile_w)
-    height_px = int(margin_y * 2 + ROWS * depth_y + tile_h + z_scale + 14)
-    base_y = margin_y + z_scale + 7.0
+    width = int(margin_x * 2 + (COLS - 1) * x_step + tile_w + ROWS * depth_x + 8)
+    height_px = int(margin_y * 2 + ROWS * depth_y + tile_h + z_scale + 16)
+    ground_y = margin_y + z_scale + 8.0
 
     def top_origin(x: int, y: int) -> tuple[float, float]:
         z = heights[y][x] * z_scale
-        return margin_x + x * tile_w + y * depth_x, base_y + y * depth_y - z
+        ox = margin_x + x * x_step + y * depth_x
+        oy = ground_y + y * depth_y - z
+        return ox, oy
 
     def top_center(x: int, y: int) -> tuple[float, float]:
         ox, oy = top_origin(x, y)
         return ox + tile_w / 2 + depth_x / 2, oy + tile_h / 2
 
-    def points(poly: list[tuple[float, float]]) -> str:
-        return " ".join(f"{x:.2f},{y:.2f}" for x, y in poly)
+    def pts(poly: list[tuple[float, float]]) -> str:
+        return " ".join(f"{px:.2f},{py:.2f}" for px, py in poly)
 
     parts: list[str] = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height_px}" viewBox="0 0 {width} {height_px}" role="img">',
         f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>',
     ]
 
-    def draw_column(x: int, y: int) -> None:
-        h = heights[y][x]
-        z = h * z_scale
-        ox, oy = top_origin(x, y)
-        base = grass_color(h)
-
-        top = [
-            (ox, oy),
-            (ox + tile_w, oy),
-            (ox + tile_w + depth_x, oy + depth_y),
-            (ox + depth_x, oy + depth_y),
-        ]
-        front = [
-            (ox + depth_x, oy + depth_y),
-            (ox + tile_w + depth_x, oy + depth_y),
-            (ox + tile_w + depth_x, oy + depth_y + z),
-            (ox + depth_x, oy + depth_y + z),
-        ]
-        right = [
-            (ox + tile_w, oy),
-            (ox + tile_w + depth_x, oy + depth_y),
-            (ox + tile_w + depth_x, oy + depth_y + z),
-            (ox + tile_w, oy + z),
-        ]
-
-        if z > 0.2:
-            parts.append(f'<polygon points="{points(right)}" fill="{shade(base, 0.50)}"/>')
-            parts.append(f'<polygon points="{points(front)}" fill="{shade(base, 0.65)}"/>')
-        parts.append(f'<polygon points="{points(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.7"/>')
-
-    # Stable painter order for this side/top projection:
-    # y=0 is the far row, y=ROWS-1 is the near row.  Do not use height in the
-    # layer key; a tall far column must not be allowed to cover a nearer row.
     for y in range(ROWS):
         for x in range(COLS):
-            draw_column(x, y)
+            h = heights[y][x]
+            z = h * z_scale
+            ox, oy = top_origin(x, y)
+            base = grass_color(h)
+
+            top = [
+                (ox, oy),
+                (ox + tile_w, oy),
+                (ox + tile_w + depth_x, oy + depth_y),
+                (ox + depth_x, oy + depth_y),
+            ]
+            right = [
+                (ox + tile_w, oy),
+                (ox + tile_w + depth_x, oy + depth_y),
+                (ox + tile_w + depth_x, oy + depth_y + z),
+                (ox + tile_w, oy + z),
+            ]
+            front = [
+                (ox + depth_x, oy + depth_y),
+                (ox + tile_w + depth_x, oy + depth_y),
+                (ox + tile_w + depth_x, oy + depth_y + z),
+                (ox + depth_x, oy + depth_y + z),
+            ]
+
+            if z > 0.15:
+                parts.append(f'<polygon points="{pts(right)}" fill="{shade(base, 0.48)}"/>')
+                parts.append(f'<polygon points="{pts(front)}" fill="{shade(base, 0.62)}"/>')
+            parts.append(f'<polygon points="{pts(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.65"/>')
 
     if path:
-        line_points = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
-        parts.append(f'<polyline points="{line_points}" fill="none" stroke="#CECECE" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>')
+        line = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
+        parts.append(f'<polyline points="{line}" fill="none" stroke="#f2cc60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
         sx, sy = top_center(*path[0])
         gx, gy = top_center(*path[-1])
-        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.8" fill="#f2cc60" stroke="#818181" stroke-width="1"/>')
-        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.8" fill="#f2cc60" stroke="#818181" stroke-width="1"/>')
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
+        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
 
     parts.append("</svg>")
     return "\n".join(parts)
