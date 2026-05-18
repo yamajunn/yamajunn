@@ -273,14 +273,13 @@ def generate_svg(grid: list[list[int]]) -> str:
                 (ox + tile_w + depth_x + 5.2, oy + depth_y + z + 5.2),
                 (ox + depth_x + 5.2, oy + depth_y + z + 5.2),
             ]
-            depth_key = oy + depth_y + z
             if z > 0.15:
-                solids.append(
-                    (depth_key + 0.02, f'<polygon points="{pts(shadow)}" fill="#020617" opacity="{shadow_opacity:.2f}"/>')
+                parts.append(
+                    f'<polygon points="{pts(shadow)}" fill="#020617" opacity="{shadow_opacity:.2f}"/>'
                 )
-                solids.append((depth_key + 0.10, f'<polygon points="{pts(right)}" fill="{shade(base, 0.48)}"/>'))
-                solids.append((depth_key + 0.12, f'<polygon points="{pts(front)}" fill="{shade(base, 0.62)}"/>'))
-            solids.append((depth_key + 0.20, f'<polygon points="{pts(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.55"/>'))
+                parts.append(f'<polygon points="{pts(right)}" fill="{shade(base, 0.48)}"/>')
+                parts.append(f'<polygon points="{pts(front)}" fill="{shade(base, 0.62)}"/>')
+            parts.append(f'<polygon points="{pts(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.55"/>')
             if z > 0.15:
                 highlight = [
                     (ox + 1.0, oy + 0.8),
@@ -288,30 +287,9 @@ def generate_svg(grid: list[list[int]]) -> str:
                     (ox + tile_w + depth_x - 1.8, oy + depth_y - 0.8),
                     (ox + depth_x + 1.2, oy + depth_y - 0.8),
                 ]
-                solids.append(
-                    (depth_key + 0.25, f'<polygon points="{pts(highlight)}" fill="#dcfce7" opacity="{0.05 + h * 0.12:.2f}"/>')
+                parts.append(
+                    f'<polygon points="{pts(highlight)}" fill="#dcfce7" opacity="{0.05 + h * 0.12:.2f}"/>'
                 )
-
-            # Matrix-like number rain: stack digits vertically above elevated tiles.
-            if z > 6:
-                cx, cy = top_center(x, y)
-                digits = f"{grid[y][x]:03d}"[-3:]
-                for i, d in enumerate(digits):
-                    overlays.append(
-                        (
-                            depth_key + 0.40 + i * 0.01,
-                            (
-                                f'<text x="{cx:.2f}" y="{(cy - z - 8 + i * 8):.2f}" '
-                                'text-anchor="middle" font-size="7" font-family="monospace" '
-                                f'fill="#86efac" opacity="{0.42 - i * 0.08:.2f}">{d}</text>'
-                            ),
-                        )
-                    )
-
-    for _, poly in sorted(solids, key=lambda item: item[0]):
-        parts.append(poly)
-    for _, txt in sorted(overlays, key=lambda item: item[0]):
-        parts.append(txt)
 
     if path:
         line = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
