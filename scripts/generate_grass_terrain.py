@@ -218,7 +218,23 @@ def generate_svg(grid: list[list[int]]) -> str:
 
     parts: list[str] = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height_px}" viewBox="0 0 {width} {height_px}" role="img">',
-        f'<rect width="{width}" height="{height_px}" rx="12" fill="#0d1117"/>',
+        "<defs>",
+        '<linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">',
+        '<stop offset="0%" stop-color="#111827"/>',
+        '<stop offset="100%" stop-color="#0b1220"/>',
+        "</linearGradient>",
+        '<linearGradient id="fogGrad" x1="0" y1="0" x2="1" y2="1">',
+        '<stop offset="0%" stop-color="#8ec5ff" stop-opacity="0.10"/>',
+        '<stop offset="70%" stop-color="#72f7d6" stop-opacity="0.00"/>',
+        "</linearGradient>",
+        '<radialGradient id="sunGlow" cx="78%" cy="16%" r="32%">',
+        '<stop offset="0%" stop-color="#fef08a" stop-opacity="0.22"/>',
+        '<stop offset="100%" stop-color="#fef08a" stop-opacity="0.00"/>',
+        "</radialGradient>",
+        "</defs>",
+        f'<rect width="{width}" height="{height_px}" rx="12" fill="url(#bgGrad)"/>',
+        f'<rect width="{width}" height="{height_px}" rx="12" fill="url(#fogGrad)"/>',
+        f'<circle cx="{width - 120}" cy="26" r="84" fill="url(#sunGlow)"/>',
     ]
 
     for y in range(ROWS):
@@ -247,13 +263,34 @@ def generate_svg(grid: list[list[int]]) -> str:
                 (ox + depth_x, oy + depth_y + z),
             ]
 
+            shadow_opacity = min(0.22, 0.06 + h * 0.20)
+            shadow = [
+                (ox + depth_x + 1.2, oy + depth_y + z + 1.0),
+                (ox + tile_w + depth_x + 1.2, oy + depth_y + z + 1.0),
+                (ox + tile_w + depth_x + 5.2, oy + depth_y + z + 5.2),
+                (ox + depth_x + 5.2, oy + depth_y + z + 5.2),
+            ]
             if z > 0.15:
+                parts.append(
+                    f'<polygon points="{pts(shadow)}" fill="#020617" opacity="{shadow_opacity:.2f}"/>'
+                )
                 parts.append(f'<polygon points="{pts(right)}" fill="{shade(base, 0.48)}"/>')
                 parts.append(f'<polygon points="{pts(front)}" fill="{shade(base, 0.62)}"/>')
-            parts.append(f'<polygon points="{pts(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.65"/>')
+            parts.append(f'<polygon points="{pts(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.55"/>')
+            if z > 0.15:
+                highlight = [
+                    (ox + 1.0, oy + 0.8),
+                    (ox + tile_w - 1.0, oy + 0.8),
+                    (ox + tile_w + depth_x - 1.8, oy + depth_y - 0.8),
+                    (ox + depth_x + 1.2, oy + depth_y - 0.8),
+                ]
+                parts.append(
+                    f'<polygon points="{pts(highlight)}" fill="#dcfce7" opacity="{0.05 + h * 0.12:.2f}"/>'
+                )
 
     if path:
         line = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
+        parts.append(f'<polyline points="{line}" fill="none" stroke="#fde68a" stroke-opacity="0.30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>')
         parts.append(f'<polyline points="{line}" fill="none" stroke="#f2cc60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
         sx, sy = top_center(*path[0])
         gx, gy = top_center(*path[-1])
