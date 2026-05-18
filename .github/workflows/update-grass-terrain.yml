@@ -2,8 +2,12 @@ name: Update grass terrain
 
 on:
   schedule:
-    - cron: "0 15 * * *" # JST 00:00
+    - cron: "0 */6 * * *" # every 6 hours (UTC)
   workflow_dispatch:
+
+concurrency:
+  group: update-grass-terrain
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -11,6 +15,7 @@ permissions:
 jobs:
   update-grass-terrain:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4

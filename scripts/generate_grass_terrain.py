@@ -237,6 +237,9 @@ def generate_svg(grid: list[list[int]]) -> str:
         f'<circle cx="{width - 120}" cy="26" r="84" fill="url(#sunGlow)"/>',
     ]
 
+    solids: list[tuple[float, str]] = []
+    overlays: list[tuple[float, str]] = []
+
     for y in range(ROWS):
         for x in range(COLS):
             h = heights[y][x]
