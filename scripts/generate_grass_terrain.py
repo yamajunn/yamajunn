@@ -249,12 +249,12 @@ def generate_svg(grid: list[list[int]], stamp: date) -> str:
         f'<circle cx="{width - 120}" cy="26" r="84" fill="url(#sunGlow)"/>',
     ]
 
-    for _ in range(30):
+    for _ in range(22):
         sx = rng.uniform(20, width - 20)
         sy = rng.uniform(10, height_px * 0.45)
-        r = rng.uniform(0.5, 2.2)
-        op = rng.uniform(0.10, 0.34)
-        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="{r:.2f}" fill="#dbeafe" opacity="{op:.2f}"/>')
+        r = rng.uniform(0.5, 1.8)
+        op = rng.uniform(0.08, 0.32)
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="{r:.2f}" fill="#e2e8f0" opacity="{op:.2f}"/>')
 
 
     for y in range(ROWS):
