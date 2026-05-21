@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+import hashlib
 import heapq
 import html
 import json
 import math
 import os
+import random
 import re
 import urllib.request
 from dataclasses import dataclass
@@ -182,9 +184,16 @@ def grass_color(value: float) -> str:
     return palette[min(4, max(0, int(round(value * 4))))]
 
 
-def generate_svg(grid: list[list[int]]) -> str:
+def daily_noise_seed(grid: list[list[int]], stamp: date) -> int:
+    payload = f"{stamp.isoformat()}|" + ",".join(str(v) for row in grid for v in row)
+    digest = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    return int(digest[:16], 16)
+
+
+def generate_svg(grid: list[list[int]], stamp: date) -> str:
     heights = normalized_heights(grid)
     path = astar(heights)
+    rng = random.Random(daily_noise_seed(grid, stamp))
 
     # Projection is intentionally simple and stable:
     # - columns are separated horizontally, so neighboring columns do not fight for z-order
@@ -237,8 +246,13 @@ def generate_svg(grid: list[list[int]]) -> str:
         f'<circle cx="{width - 120}" cy="26" r="84" fill="url(#sunGlow)"/>',
     ]
 
-    solids: list[tuple[float, str]] = []
-    overlays: list[tuple[float, str]] = []
+    for _ in range(22):
+        sx = rng.uniform(20, width - 20)
+        sy = rng.uniform(10, height_px * 0.45)
+        r = rng.uniform(0.5, 1.8)
+        op = rng.uniform(0.08, 0.32)
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="{r:.2f}" fill="#e2e8f0" opacity="{op:.2f}"/>')
+
 
     for y in range(ROWS):
         for x in range(COLS):
@@ -300,14 +314,18 @@ def generate_svg(grid: list[list[int]]) -> str:
         parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
         parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
 
+    parts.append(
+        f'<text x="{width - 16}" y="{height_px - 14}" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8" opacity="0.85">{stamp.isoformat()}</text>'
+    )
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(JST).date()
     grid = build_grid(fetch_counts())
-    OUT.write_text(generate_svg(grid), encoding="utf-8")
+    OUT.write_text(generate_svg(grid, stamp), encoding="utf-8")
 
 
 if __name__ == "__main__":

@@ -89,6 +89,12 @@
   </tr>
 </table>
   
+
+## 🌱 Grass terrain update memo
+- SVG is generated from GitHub contribution counts as an isometric terrain with A* route overlay.
+- The sky particles and date stamp are seeded by `YYYY-MM-DD`, so **every daily run creates a meaningful visual diff** even when contribution counts are unchanged.
+- Recommended daily operation on `main`: run `python scripts/generate_grass_terrain.py` once per day (JST) and commit `assets/grass_terrain.svg`.
+
 ## 📚 Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yamajunn&theme=slateorange)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yamajunn&theme=slateorange&utcOffset=9)
