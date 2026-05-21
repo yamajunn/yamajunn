@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+import hashlib
 import heapq
 import html
 import json
 import math
 import os
+import random
 import re
 import urllib.request
 from dataclasses import dataclass
@@ -178,13 +180,20 @@ def shade(color: str, factor: float) -> str:
 
 
 def grass_color(value: float) -> str:
-    palette = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+    palette = ["#0b1020", "#124a3a", "#1d7c59", "#34b37a", "#8af5b2"]
     return palette[min(4, max(0, int(round(value * 4))))]
 
 
-def generate_svg(grid: list[list[int]]) -> str:
+def daily_noise_seed(grid: list[list[int]], stamp: date) -> int:
+    payload = f"{stamp.isoformat()}|" + ",".join(str(v) for row in grid for v in row)
+    digest = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    return int(digest[:16], 16)
+
+
+def generate_svg(grid: list[list[int]], stamp: date) -> str:
     heights = normalized_heights(grid)
     path = astar(heights)
+    rng = random.Random(daily_noise_seed(grid, stamp))
 
     # Projection is intentionally simple and stable:
     # - columns are separated horizontally, so neighboring columns do not fight for z-order
@@ -195,7 +204,7 @@ def generate_svg(grid: list[list[int]]) -> str:
     x_step = 19.0
     depth_x = 7.0
     depth_y = 10.0
-    z_scale = 30.0
+    z_scale = 34.0
     margin_x = 22.0
     margin_y = 14.0
 
@@ -220,25 +229,33 @@ def generate_svg(grid: list[list[int]]) -> str:
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height_px}" viewBox="0 0 {width} {height_px}" role="img">',
         "<defs>",
         '<linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">',
-        '<stop offset="0%" stop-color="#111827"/>',
-        '<stop offset="100%" stop-color="#0b1220"/>',
+        '<stop offset="0%" stop-color="#04070f"/>',
+        '<stop offset="100%" stop-color="#071225"/>',
         "</linearGradient>",
         '<linearGradient id="fogGrad" x1="0" y1="0" x2="1" y2="1">',
-        '<stop offset="0%" stop-color="#8ec5ff" stop-opacity="0.10"/>',
-        '<stop offset="70%" stop-color="#72f7d6" stop-opacity="0.00"/>',
+        '<stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.12"/>',
+        '<stop offset="70%" stop-color="#34d399" stop-opacity="0.00"/>',
         "</linearGradient>",
         '<radialGradient id="sunGlow" cx="78%" cy="16%" r="32%">',
-        '<stop offset="0%" stop-color="#fef08a" stop-opacity="0.22"/>',
-        '<stop offset="100%" stop-color="#fef08a" stop-opacity="0.00"/>',
+        '<stop offset="0%" stop-color="#67e8f9" stop-opacity="0.24"/>',
+        '<stop offset="100%" stop-color="#67e8f9" stop-opacity="0.00"/>',
         "</radialGradient>",
+        '<filter id="neonBlur" x="-50%" y="-50%" width="200%" height="200%">',
+        '<feGaussianBlur stdDeviation="3"/>',
+        "</filter>",
         "</defs>",
         f'<rect width="{width}" height="{height_px}" rx="12" fill="url(#bgGrad)"/>',
         f'<rect width="{width}" height="{height_px}" rx="12" fill="url(#fogGrad)"/>',
         f'<circle cx="{width - 120}" cy="26" r="84" fill="url(#sunGlow)"/>',
     ]
 
-    solids: list[tuple[float, str]] = []
-    overlays: list[tuple[float, str]] = []
+    for _ in range(30):
+        sx = rng.uniform(20, width - 20)
+        sy = rng.uniform(10, height_px * 0.45)
+        r = rng.uniform(0.5, 2.2)
+        op = rng.uniform(0.10, 0.34)
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="{r:.2f}" fill="#dbeafe" opacity="{op:.2f}"/>')
+
 
     for y in range(ROWS):
         for x in range(COLS):
@@ -246,6 +263,7 @@ def generate_svg(grid: list[list[int]]) -> str:
             z = h * z_scale
             ox, oy = top_origin(x, y)
             base = grass_color(h)
+            tint = shade("#67e8f9", 0.50 + h * 0.55)
 
             top = [
                 (ox, oy),
@@ -266,7 +284,7 @@ def generate_svg(grid: list[list[int]]) -> str:
                 (ox + depth_x, oy + depth_y + z),
             ]
 
-            shadow_opacity = min(0.22, 0.06 + h * 0.20)
+            shadow_opacity = min(0.26, 0.06 + h * 0.24)
             shadow = [
                 (ox + depth_x + 1.2, oy + depth_y + z + 1.0),
                 (ox + tile_w + depth_x + 1.2, oy + depth_y + z + 1.0),
@@ -277,9 +295,9 @@ def generate_svg(grid: list[list[int]]) -> str:
                 parts.append(
                     f'<polygon points="{pts(shadow)}" fill="#020617" opacity="{shadow_opacity:.2f}"/>'
                 )
-                parts.append(f'<polygon points="{pts(right)}" fill="{shade(base, 0.48)}"/>')
-                parts.append(f'<polygon points="{pts(front)}" fill="{shade(base, 0.62)}"/>')
-            parts.append(f'<polygon points="{pts(top)}" fill="{base}" stroke="#0d1117" stroke-width="0.55"/>')
+                parts.append(f'<polygon points="{pts(right)}" fill="{shade(base, 0.42)}"/>')
+                parts.append(f'<polygon points="{pts(front)}" fill="{shade(base, 0.56)}"/>')
+            parts.append(f'<polygon points="{pts(top)}" fill="{base}" stroke="#022c22" stroke-width="0.52"/>')
             if z > 0.15:
                 highlight = [
                     (ox + 1.0, oy + 0.8),
@@ -288,26 +306,40 @@ def generate_svg(grid: list[list[int]]) -> str:
                     (ox + depth_x + 1.2, oy + depth_y - 0.8),
                 ]
                 parts.append(
-                    f'<polygon points="{pts(highlight)}" fill="#dcfce7" opacity="{0.05 + h * 0.12:.2f}"/>'
+                    f'<polygon points="{pts(highlight)}" fill="#ecfeff" opacity="{0.05 + h * 0.14:.2f}"/>'
                 )
+                ridge = [
+                    (ox + tile_w * 0.58, oy + 0.6),
+                    (ox + tile_w + depth_x - 1.2, oy + depth_y * 0.62),
+                    (ox + tile_w + depth_x - 1.2, oy + depth_y * 0.78),
+                    (ox + tile_w * 0.58, oy + 0.76),
+                ]
+                parts.append(f'<polygon points="{pts(ridge)}" fill="{tint}" opacity="{0.15 + h * 0.30:.2f}"/>')
+                if h > 0.62 and rng.random() < 0.22:
+                    cx, cy = top_center(x, y)
+                    parts.append(f'<circle cx="{cx:.2f}" cy="{cy - 1.2:.2f}" r="{1.2 + h:.2f}" fill="{tint}" opacity="0.45" filter="url(#neonBlur)"/>')
 
     if path:
         line = " ".join(f"{top_center(x, y)[0]:.2f},{top_center(x, y)[1]:.2f}" for x, y in path)
-        parts.append(f'<polyline points="{line}" fill="none" stroke="#fde68a" stroke-opacity="0.30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>')
-        parts.append(f'<polyline points="{line}" fill="none" stroke="#f2cc60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>')
+        parts.append(f'<polyline points="{line}" fill="none" stroke="#67e8f9" stroke-opacity="0.35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#neonBlur)"/>')
+        parts.append(f'<polyline points="{line}" fill="none" stroke="#a7f3d0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>')
         sx, sy = top_center(*path[0])
         gx, gy = top_center(*path[-1])
-        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
-        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.5" fill="#f2cc60" stroke="#0d1117" stroke-width="1"/>')
+        parts.append(f'<circle cx="{sx:.2f}" cy="{sy:.2f}" r="3.9" fill="#a7f3d0" stroke="#083344" stroke-width="1"/>')
+        parts.append(f'<circle cx="{gx:.2f}" cy="{gy:.2f}" r="3.9" fill="#a7f3d0" stroke="#083344" stroke-width="1"/>')
 
+    parts.append(
+        f'<text x="{width - 16}" y="{height_px - 14}" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8" opacity="0.85">{stamp.isoformat()}</text>'
+    )
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(JST).date()
     grid = build_grid(fetch_counts())
-    OUT.write_text(generate_svg(grid), encoding="utf-8")
+    OUT.write_text(generate_svg(grid, stamp), encoding="utf-8")
 
 
 if __name__ == "__main__":
