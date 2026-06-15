@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "yamajunn"
-          git config user.email "c1502123@st.kanazawa-it.ac.jp"
+          # git config user.name "yamajunn"
+          # git config user.email "c1502123@st.kanazawa-it.ac.jp"
 
           if git diff --quiet; then
             echo "No changes"
