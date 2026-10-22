@@ -19,28 +19,28 @@
 <rect width="1103" height="156" rx="12" fill="url(#bgGrad)"/>
 <rect width="1103" height="156" rx="12" fill="url(#fogGrad)"/>
 <circle cx="983" cy="26" r="84" fill="url(#sunGlow)"/>
-<circle cx="487.98" cy="29.30" r="1.43" fill="#e2e8f0" opacity="0.13"/>
-<circle cx="47.76" cy="48.43" r="1.49" fill="#e2e8f0" opacity="0.32"/>
-<circle cx="35.57" cy="68.98" r="0.60" fill="#e2e8f0" opacity="0.12"/>
-<circle cx="1060.09" cy="24.04" r="0.94" fill="#e2e8f0" opacity="0.09"/>
-<circle cx="629.65" cy="21.36" r="1.48" fill="#e2e8f0" opacity="0.30"/>
-<circle cx="842.48" cy="63.36" r="1.23" fill="#e2e8f0" opacity="0.12"/>
-<circle cx="425.82" cy="62.88" r="0.96" fill="#e2e8f0" opacity="0.12"/>
-<circle cx="523.23" cy="17.17" r="1.18" fill="#e2e8f0" opacity="0.28"/>
-<circle cx="352.14" cy="19.94" r="1.42" fill="#e2e8f0" opacity="0.24"/>
-<circle cx="743.40" cy="62.51" r="0.74" fill="#e2e8f0" opacity="0.24"/>
-<circle cx="268.80" cy="14.58" r="0.95" fill="#e2e8f0" opacity="0.27"/>
-<circle cx="123.43" cy="36.44" r="1.53" fill="#e2e8f0" opacity="0.25"/>
-<circle cx="588.51" cy="33.69" r="0.98" fill="#e2e8f0" opacity="0.09"/>
-<circle cx="562.08" cy="56.10" r="1.35" fill="#e2e8f0" opacity="0.12"/>
-<circle cx="694.04" cy="56.82" r="1.41" fill="#e2e8f0" opacity="0.16"/>
-<circle cx="375.29" cy="61.88" r="1.13" fill="#e2e8f0" opacity="0.18"/>
-<circle cx="777.31" cy="23.20" r="0.61" fill="#e2e8f0" opacity="0.09"/>
-<circle cx="67.42" cy="53.93" r="1.31" fill="#e2e8f0" opacity="0.24"/>
-<circle cx="402.96" cy="46.14" r="1.35" fill="#e2e8f0" opacity="0.09"/>
-<circle cx="638.71" cy="53.13" r="0.59" fill="#e2e8f0" opacity="0.28"/>
-<circle cx="492.68" cy="16.22" r="1.51" fill="#e2e8f0" opacity="0.08"/>
-<circle cx="1081.66" cy="10.68" r="0.84" fill="#e2e8f0" opacity="0.14"/>
+<circle cx="748.27" cy="35.89" r="0.75" fill="#e2e8f0" opacity="0.31"/>
+<circle cx="782.23" cy="65.37" r="1.22" fill="#e2e8f0" opacity="0.10"/>
+<circle cx="1068.08" cy="13.03" r="1.57" fill="#e2e8f0" opacity="0.13"/>
+<circle cx="979.46" cy="46.39" r="0.86" fill="#e2e8f0" opacity="0.31"/>
+<circle cx="425.57" cy="49.09" r="1.67" fill="#e2e8f0" opacity="0.31"/>
+<circle cx="677.41" cy="50.26" r="1.21" fill="#e2e8f0" opacity="0.32"/>
+<circle cx="75.97" cy="54.47" r="1.32" fill="#e2e8f0" opacity="0.29"/>
+<circle cx="246.88" cy="16.60" r="1.60" fill="#e2e8f0" opacity="0.29"/>
+<circle cx="305.05" cy="17.12" r="1.58" fill="#e2e8f0" opacity="0.10"/>
+<circle cx="48.79" cy="28.00" r="1.22" fill="#e2e8f0" opacity="0.13"/>
+<circle cx="925.22" cy="31.39" r="0.97" fill="#e2e8f0" opacity="0.27"/>
+<circle cx="659.45" cy="31.23" r="0.92" fill="#e2e8f0" opacity="0.11"/>
+<circle cx="279.72" cy="65.26" r="1.35" fill="#e2e8f0" opacity="0.15"/>
+<circle cx="324.03" cy="20.24" r="1.48" fill="#e2e8f0" opacity="0.27"/>
+<circle cx="1076.68" cy="57.64" r="1.01" fill="#e2e8f0" opacity="0.26"/>
+<circle cx="349.63" cy="39.31" r="1.61" fill="#e2e8f0" opacity="0.18"/>
+<circle cx="895.48" cy="55.93" r="1.02" fill="#e2e8f0" opacity="0.14"/>
+<circle cx="335.85" cy="21.97" r="0.74" fill="#e2e8f0" opacity="0.17"/>
+<circle cx="774.05" cy="34.12" r="1.46" fill="#e2e8f0" opacity="0.23"/>
+<circle cx="447.09" cy="24.49" r="0.62" fill="#e2e8f0" opacity="0.29"/>
+<circle cx="888.84" cy="39.86" r="0.96" fill="#e2e8f0" opacity="0.17"/>
+<circle cx="916.90" cy="41.91" r="1.10" fill="#e2e8f0" opacity="0.15"/>
 <polygon points="22.00,56.00 36.00,56.00 43.00,66.00 29.00,66.00" fill="#0b1020" stroke="#022c22" stroke-width="0.52"/>
 <polygon points="41.00,56.00 55.00,56.00 62.00,66.00 48.00,66.00" fill="#0b1020" stroke="#022c22" stroke-width="0.52"/>
 <polygon points="60.00,56.00 74.00,56.00 81.00,66.00 67.00,66.00" fill="#0b1020" stroke="#022c22" stroke-width="0.52"/>
@@ -74,6 +74,7 @@
 <polygon points="535.00,31.03 549.00,31.03 556.00,41.03 542.00,41.03" fill="#34b37a" stroke="#022c22" stroke-width="0.52"/>
 <polygon points="536.00,31.83 548.00,31.83 554.20,40.23 543.20,40.23" fill="#ecfeff" opacity="0.15"/>
 <polygon points="543.12,31.63 554.80,37.23 554.80,38.83 543.12,31.79" fill="#5dd1e1" opacity="0.37"/>
+<circle cx="545.50" cy="33.83" r="1.93" fill="#5dd1e1" opacity="0.45" filter="url(#neonBlur)"/>
 <polygon points="554.00,56.00 568.00,56.00 575.00,66.00 561.00,66.00" fill="#0b1020" stroke="#022c22" stroke-width="0.52"/>
 <polygon points="573.00,56.00 587.00,56.00 594.00,66.00 580.00,66.00" fill="#0b1020" stroke="#022c22" stroke-width="0.52"/>
 <polygon points="592.00,56.00 606.00,56.00 613.00,66.00 599.00,66.00" fill="#0b1020" stroke="#022c22" stroke-width="0.52"/>
@@ -806,7 +807,6 @@
 <polygon points="539.00,94.90 553.00,94.90 560.00,104.90 546.00,104.90" fill="#1d7c59" stroke="#022c22" stroke-width="0.52"/>
 <polygon points="540.00,95.70 552.00,95.70 558.20,104.10 547.20,104.10" fill="#ecfeff" opacity="0.14"/>
 <polygon points="547.12,95.50 558.80,101.10 558.80,102.70 547.12,95.66" fill="#56c3d1" opacity="0.34"/>
-<circle cx="549.50" cy="97.70" r="1.82" fill="#56c3d1" opacity="0.45" filter="url(#neonBlur)"/>
 <polygon points="566.20,127.00 580.20,127.00 584.20,131.20 570.20,131.20" fill="#020617" opacity="0.14"/>
 <polygon points="572.00,104.09 579.00,114.09 579.00,126.00 572.00,116.00" fill="#071f18"/>
 <polygon points="565.00,114.09 579.00,114.09 579.00,126.00 565.00,126.00" fill="#0a2920"/>
@@ -878,5 +878,5 @@
 <polyline points="53.50,82.48 72.50,90.00 65.50,80.00 58.50,70.00 77.50,70.00 70.50,60.00 89.50,60.00 108.50,60.00 127.50,60.00 146.50,60.00 165.50,60.00 184.50,60.00 203.50,60.00 222.50,60.00 241.50,60.00 260.50,60.00 279.50,60.00 298.50,60.00 317.50,60.00 336.50,60.00 355.50,60.00 362.50,70.00 369.50,80.00 388.50,80.00 407.50,80.00 426.50,80.00 445.50,80.00 464.50,80.00 483.50,80.00 502.50,80.00 521.50,80.00 540.50,80.00 559.50,72.48 566.50,90.00 585.50,90.00 604.50,90.00 623.50,90.00 642.50,72.55 661.50,72.55 680.50,72.55 699.50,90.00 718.50,90.00 737.50,90.00 756.50,90.00 775.50,90.00 794.50,90.00 813.50,90.00 820.50,100.00 839.50,100.00 858.50,100.00 877.50,100.00 896.50,100.00 915.50,100.00 934.50,100.00 953.50,100.00 972.50,100.00 991.50,100.00 1010.50,100.00 1029.50,100.00 1022.50,90.00 1041.50,90.00" fill="none" stroke="#a7f3d0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="53.50" cy="82.48" r="3.9" fill="#a7f3d0" stroke="#083344" stroke-width="1"/>
 <circle cx="1041.50" cy="90.00" r="3.9" fill="#a7f3d0" stroke="#083344" stroke-width="1"/>
-<text x="1087" y="142" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8" opacity="0.85">2026-10-22</text>
+<text x="1087" y="142" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#94a3b8" opacity="0.85">2026-10-23</text>
 </svg>
